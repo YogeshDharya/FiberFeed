@@ -1,0 +1,1269 @@
+SENSITIVE : TRUE 
+DBPASSWORD - K7OISjZaY7XwZpDS 
+
+
+chmod +x setup.sh  
+./setup.sh  
+  
+  crio-users  
+  crio-users@gmail.com  
+   criouser123  
+
+a ---  
+ const checkout = ()=>{        
+}     
+
+o had clicked accept current changes instead of incoming ones for the integration>checkout.test.js 
+o Access confusion - had given my ip address and had created a user with password although BUT did not find allow access from anywhere I have a feeling that it should be the address 
+of the application(backend be) 
+UPDATES  
+What if user wants to buy only some specific products in his cart while the other are expected by him to stay in the cart for future . Like buying 3 out of 5 things meaning 2 should remain for later     
+Like this true thing at line  , if this expect statement happens to be true that is false is false and therefore true so beforeEach() shall run ?   
+beforeEach() if after then why before ? resets the mocked objects after each individual test K MAKE sense    ?  
+o User Profile section For showing and increasing walletMoney from concerned UPIs (too much to ask 4 ?13th Dec 2023 9:20 pm  
+o Users should be given an Alert msg u don't have enough wallet Balance  
+
+# Go into the cloned repo directory.
+
+cd ~/workspace/yogeshdharya-ME_QKART_BACKEND/
+
+TESTING  
+jest.config.js sets the NODE_ENV (env option) to "test" THAT IS TO SAY when we hit npm test ; the test inside scripts of package.json is hit which has jets-i as its value  
+qkart-test is the DB used for testing    
+rejects means to reject the promise    
+describe() : groups related tests together   
+it() is an alias to test  
+expect() : where value to be tested goes in with matchers   
+expect(response).rejects.toThrow(ApiError); but we are expecting not rejecting it as such   
+expect(response).rejects.toThrow(ApiError);   
+        expect(response).rejects.toEqual( )  
+          expect.objectContaining({   
+            statusCode: httpStatus.NOT_FOUND   
+          })   
+   
+---          
+UNDERSTANDING      
+Flow 
+o Controllers 
+o Validator 
+o Routers 
+o App is Running on Port 8082 
+
+NEW CODE    DOUBTS         
+ 
+o Challenging BUGS, UPdates(Same project shall be used by Other beavers) , 
+FRONTEND of XfliX ? M so not doing the frontend  
+o XYZ formula from a backend perspective   
+
+For QTrip Dynamic 2 is it fine if I apply the updates in backend project and Qtrip remains devoid of it  
+
+QUESTIONS  
+
+o config.js 35 rigtht above throw ALSO Config Validation Failed "LESSOPEN" is not allowed 
+o models/video.models.js 3:16 
+echo $LESSPIPE displays : - | /usr/bin/lesspipe %s 
+ 
+--- 
+
+
+OTHERS    
+
+
+LEFT2ASK  -- K7OISjZaY7XwZpDS
+
+H      
+      
+UNIT Tests    
+Results from mentor : 
+---     
+
+200    OK 
+201     Created 
+204     No Content 
+301 Moved PERMANENTLY //redirected from http to https 
+400    Bad Request 
+401     Un-authorized 
+403     Forbidden 
+404    Not Found 
+          Server Error ?? Which one 
+409     Conflict(While : Updating , Versioning , Duplicate Resource Existence ) 
+422     Search for it , It kind of means server couldn't process ur request although everything was correct 
+500    Internal Server Error 
+
+---
+
+---
+
+$$$  PROJECT INFO 
+qkart backend-> first above then cd frontend-> again above; npm start    
+DB name - qkart    
+DB for tests - qkart-test    
+Collection name for "User" model objects - users   
+same in cd Frontend   
+BELOW for both Qtrip dynamic and Qkart backend  
+cd backend --> npm start //after updating the backendEndpoint in the  conf folder  
+Whereas for front-end its the live server (Dynamic so possibly for the QtripStatic as well)  
+For DISFO one needs to update the IP in the config.js file  
+cursor expand and width 3 theme solarized dark    
+CTheCart : develop some different catchy name 4 the same  
+React can use client-side routing to navigate between different routes in the website. Here, the client-side React application itself handles the routing instead of sending a  
+request for a new web page to the backend server. Another aspect is that the entire page won’t refresh with React but just the part of it that needs to be updated is re-rendered.   
+
+
+hillside party beaches cycling  
+nnnn currency name YDTrip  
+frontend as beautiful for backend aspirants ?  
+change nn in the db.json then restart . currency and 100+ places  
+//const time = Date(ele.time).toLocaleString("en-IN",{dateStyle:"long",timeStyle:"full",hour12:"false"}).split("at").join(",");  
+without convertDate() :4 November 2020, 9:32:31 pm" 
+                                Received: "5 November 2020, 5:30:00 am" 
+with convertDate() : 4 November 2020, 9:32:31 pm"  
+    Received: "5 November 2020, 5:30:00 am" 
+    Cannot get the required date format ! 
+Cannot control the am and pm section of the date  
+$$$ 
+K8S project by crio - https://www.crio.do/projects/docker-kubernetes-intro-git/ 
+LinkedIn Mastery 
+  - https://www.crio.do/learn/me/ME_LINKEDIN_OPTIMIZATION_SERIES/ME_LINKEDIN_OPTIMIZATION_SERIES_MODULE_BYTE1/
+  - https://www.crio.do/learn/me/ME_LINKEDIN_OPTIMIZATION_SERIES_2/ 
+  - https://www.crio.do/learn/me/ME_LINKEDIN_OPTIMIZATION_SERIES_3/ME_LINKEDIN_OPTIMIZATION_SERIES_3_MODULE_BYTE3/ 
+  Once done with this upload ur linkedIn url in the crio profile section 
+$$$ 
+###
+DEPLOYMENT 
+AWS 
+o entrypoint within bacend application changes from index.js to main.js . ' . changes are required to be made within pacage.json too    
+sample project 4 review - https://drive.google.com/file/d/1So5UEt08TiHeT-eJbVOos2Xb4ixK7NR6/view
+###
+This is pretty much in sync with the fact that React apps are all Single Page Applications (SPAs) meaning that the same page (public/index.html) gets updated with new content instead of having multiple pages.  
+  
+//short cut to add a new terminal and move across terminals 
+Material UI's custom theme helps in defining default themes for the buttons , textFields etc and can be used by keeping it as the parent of all as follows :
+<ThemeProvider theme={createdTheme}><Child1 /><Child2 /><ThemeProvider />
+//WHEN U GET STUCK  
+note: KEEP this in mind , u need to map ur code with the output it would generate on the client side (or as and when desired , could be backend 2 M JUST BEING GENERAL HERE ) 
+think about what u want on  the output front-end then start thinking about the bug , where are u lacking u'll get the answer ur self . 2nd Feb 2023 00:30 am : Dusk Till Dawn  
+console.log("Not just before & after the error but also BROWSER'S console")
+--->                                                                                                                                                                                                                                                                    console.log("12:08AM Saturday 21stJuly 2024 4am deepr deepr.Was writting bugs and updates for VStore and LetzStream .Not completed yet and need to play BGMI with Vedant too so will have to leave Can't believe I forgot his name while speaing with him on phone driving way bac home.When Sister spoe to Tanu D on Phone I noticed for some reason on WhatsApp n IDE we switch to English.Hearing Fresh Air now ;althoughReturned Bac from Anil Mama had my medicine since was sufferring from tonsils for past 4 days when we returned bac from Vasu Dada's wedding.Got compliments for my slightly short hair,also for that Paistani outfit was li ed (can't have after j here ) by all Om Mama too .Tommorrow Guru Purnima therefore Niddhi school has holiday too)
+breakPoints 
+debugger
+NOW actual debugging 
+Run&DebugWindow->DropDown->NodeJS/Python->Select the starting script/file(Urs only have Java scrypt No Node which in turn should be index.js(Path??))->name specifies which debug session
+u want to fire(Ugot4JavaS)->Before launching the debug session u can go ahead and set breakPoints(RedDots2theLeft) ->At the time debugger reaches a breakPoint u can use 
+the bottomMost line below the terminal to perform JS or some other language specific operations->BottomArrow means step into some function existing within the current breakPoint
+
+border : dotted 1 px red 
+Read the entire bug again including the area right on top of from where the bug initiates PLUS 
+the area from where the bug as such doesn't exist , these can be the two potential regions causing the bug to occur  
+NEW check the files which are already imported within the current one THEY HAVE A PURPOSE 4 their existence  
+look if that bug is even necessarry to resolve 
+consider bugs as oppurtunities to learn something new  
+QKart logo                                                      
+successful registration msg 
+Above if u want to ignore the proceeding warnings 
+both at project directory 
+then npm start first at the above directory and later at the backend dir
+Should i keep my QCart logos as hyperLinks 2 ?
+Technologies : DevOps 
+Tools : Jenkins Tailwind CSS TypeScript 
+OS : ? 
+DBMS CN ?? 
+SEO ALSO should i keep my resume's extention in word format ?
+cut short and linked in MCQs JS AND REACT
+Stack OverFlow profiles  
+alt for 
+hooks used from notistack LIBRARY ?
+QKart  
+useHistory hook  helps in keeping a track of the previously visited urls  
+My Register component has finally rendered however the form section seems little bit out of the way  
+theme.js has some errors Who knows if my Login component is misbehaving cause of that . 
+Most importantly I think i need to work on the Qkart logos cause those are links instead and therefore should b served with a definite route  
+ 
+
+B           U               G                   S //current bugs are above 
+
+Can i keep a react link component within a material Ui button component 
+What should the back2Explore page and QKart logo should do 
+How do i have dividers between Stack children 
+How do i control the circular progress icon 
+Register different from Login  ? 
+does the control automatically go 2 the next textField 
+How do i control the helper text below the TextField ?
+I C a lot of meaningless space below the Register link , should i keep it in the center ? and increase its size ? or decrease the size of the parent   
+Can we control the Color of this helperText  
+how to toggle between split terminals   
+read speed vs write speed are inversely proportional (MongoDB )//LEFT
+
+Unique :
+Yogesh Made circular progress icon 
+Register different from Login ? So different TextField different Stack direction style BUT 
+Register LACKS EMAIL 
+Different color combinations color:secondary  
+
+src/routes/user.route.js - receives all requests to the /v1/users endpoint. Sends the request to the validation middleware 
+
+src/validations/user.validation.js - defines request schema in the getUser() method. Request url param has to be a string and a valid Mongo ID 
+
+src/controllers/user.controller.js - getUser() method is called if request validation passes. Uses the service layer to fetch the user data for the requested id value 
+
+src/services/user.service.js - getUserById() method utilizes the User model defined to fetch data from MongoDB
+
+How would MongoDB behave in the below scenarios?
+
+Mongoose schema has less fields than the data already present in Mongo and you try to read some data (eg: using a GET request). Will it throw an error or you get back a subset of the Mongo document data according with only the fields defined in the schema? 
+
+You need to create a new document in Mongo (eg: using a POST request) but you pass a parameter to the Model.create() method with a field in the Mongoose schema missing. Will it throw an error or create a document with null value for the missing field? Is there any difference if the required or default properties are set for the missing field? 
+
+Check the src/services/user.service.js file. You’ll find that the User model is imported using the statement below 
+
+
+const { User } = require("../models"); 
+
+How is the User model available when src/models is imported rather than src/models/user.model.js? 
+Why didn’t we just use a single file to add all the functionalities required to make an endpoint work? Wouldn’t that be possible or does Node.js mandate such a structure? 
+
+What can happen if you don’t validate the input request before it gets to the later layers? 
+
+Try commenting out the validation layer and hitting the GET /v1/users/:userId endpoint with a non-valid MongoID 
+MongoDB is a NoSQL database. Its documents support a flexible schema. Are we overriding this behaviour by using Mongoose to enforce a particular schema?
+The route handler for GET /v1/users/:userId calls the validate middleware as its first callback function and then the user controller method. What happens if the validate middleware 
+throw an error 
+pass an error object as parameter to the next() method 
+call the next() method 
+
+---
+
+lsof -ti tcp:8082 # prints a number eg: 2020
+kill -9 2020 # replace 2020 with the number you got
+
+---
+GK check above 2 
+Old MONGODB_URL  =  mongodb+srv://admin:oNelEwcMnqYEErPn@qkart-node.rbcs7e0.mongodb.net/?retryWrites=true&w=majority  
+if mongoose.model() has collection's name as the 1st param then where do we specify the name of the db 
+in the db url present in the env file  as MONGODB_URL= mongodb://127.0.0.1:27017/qkart which is the db name   
+From which of the following MongoDB collections will a Mongoose model created with the given statement interact with? *
+mongoose.model("Topic", topicSchema) 
+Mongoose automatically looks for the plural, lowercase version of your model name . ' . ANS is topics ALSO BELOW 
+https://mongoosejs.com/docs/models.html
+You can also find out how to provide a collection name explicitly by passing an additional parameter to the model() method call https://mongoosejs.com/docs/models.html
+When u create a doc without the address field defined in the schema of the model .                 the document gets created without the address field 
+But when the same field is skipped which had  the required property set to true                        error is thrown and the field is set to some explicitly defined default value  
+GO THROUGH THIS LINK FOR CRUD via MONGOOSE object relational mapping lib BUT BEFORE THAT  keep this in mind that u can perform these operations only on a 
+var which require("./models/someModel.js") //ABOVE 
+https://mongoosejs.com/docs/queries.html
+Which of the following are valid ways to find the document from MongoDB using the document’s unique email field? (Here, "User" is a Mongoose model and “email” a valid email as string) *
+User.findOne({ "email" : email })  
+User.findOne({ email: email })  
+User.findOne({ email })   
+How do you add a static function to a Mongoose model? (Here, "User" is a Mongoose model and “hasNonEmptyAddress” the static function to be added) *  
+User.statics.hasNonEmptyAddress = function(arg1, arg2...) {}
+User.static(‘hasNonEmptyAddress’, function(arg1, arg2...) {}) 
+https://mongoosejs.com/docs/guide.html#statics
+What is a process object 
+process is a global object in Node.js and can be used from any module without requiring it. It can be used for purposes like reading environment variables using the process.env object, for example, 
+process.env.port. https://www.freecodecamp.org/news/node-process-object-explained/  
+In the context of the QKart app, which of the following statements will return the value of the "PORT" variable stored in the “.env” file? *  
+// import src/config/config.js  
+const config = require("./config/config");  
+// stores "PORT" value from .env  
+const port = <statement>;  
+Correct Answer :  
+process.env.PORT  
+config.port  
+Answer Explanation : 
+process.env stores the key as what’s present in the .env file which is PORT=8082. Hence, use process.env.PORT to access its value  
+config.js file exports the environment variable, PORT read from process.env explicitly as port. So, we can also use config.port to get the value. 
+We used it to access the environment variables set in the .env file from src/config/config.js. These are loaded to the process.env object using the dotenv library.  
+How are you able to access the values stored in the ".env" file by importing the “src/config/config.js” file? (Eg: “PORT” is accessible via “config.port”) *  
+  
+Hide explanation   
+Answer Explanation :   
+The "src/config/config.js" file uses the dotenv npm library to load variables stored in “.env” file as fields of the application’s process.env object.  
+dotenv.config({ path: path.join(__dirname, '../../.env') });   
+These values are then exported from the file.   
+module.exports = {  
+  env: envVars.NODE_ENV,
+  port: envVars.PORT,
+}
+
+How to configure the Joi schema in "src/config/config.js" to allow for more environment variables than that’s checked in the schema i.e, apart from (NODE_ENV, PORT, MONGODB_URL) *
+Use Joi’s Object.unknown() method
+Use Joi’s Object.unknown(true) method
+Why should the Joi schema be defined for the "params" field of request for the “GET /v1/users/:userId” endpoint? *
+Answer Explanation :
+The validation is for the userId field in the "GET /v1/users/:userId" request. Here, userId is a request url param value. We use req.params to access it in Express.
+The src/middlewares/validate.js middleware matches fields in the Joi schema with that in the req object. So, to specify the schema is for the req.params field, the schema properties are set on the params field.
+Similarly, to validate request body available via req.body, use
+const schema = {
+  body: Joi.object().keys({
+    bodyFieldName: <properties>;
+  }),
+};
+
+Which of the following are valid ways to set the "name" field of a Mongoose schema to type “String” inside the mongoose.Schema() constructor? *
+name: String
+name: { type: String }
+I used the import state given below for importing a function from another module in my project. Which of the following export statements if used in "service.js" will call the actual function correctly? (“service.js” and “home.js” are two separate files) * freeService() exists within service.js file and it has been exported as servive=require("./service").freeService and then 
+called as service() options are  
+exports.freeService = freeService;
+module.exports.freeService = freeService
+module.exports = [freeService: freeService)
+module.exports = freeService
+ANS 
+module.exports.freeService = freeService
+module.exports = { freeService: freeService }
+Answer Explanation :
+If you export using module.exports = freeService, you’ll have to use the below import statement to correctly import the function
+const service = require(‘./service’);
+differences are module.exports and exports https://www.sitepoint.com/understanding-module-exports-exports-node-js/
+Which of the following are correct ways to import the "freeService" function to another file in the same folder as “service.js”? * inside service.js has freeService
+// File: service.js
+function freeService() {
+	console.log("free!");
+}
+function paidService() {
+	console.log("paid :("));
+}
+module.exports = {
+	freeService,
+	paidService
+}
+OPTIONS 
+const freeService = require('./service').freeService
+const {freeService} = require("./service')
+const services = require( service); const freeService = services freeService
+const (service) = require('./service')
+ANS 
+const freeService = require(‘./service’).freeService
+const { freeService } = require(‘./service’)
+const services = require(‘./service’); const freeService = services.freeService;
+FOLLOW THIS LINK BELOW in capitals 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+what happens when home.js file is called 
+// File: service.js
+function freeService() {
+	console.log("free!");
+}
+function paidService() {
+	console.log("paid :(");
+}
+module.exports.freeService = freeService;
+module.exports = paidService;
+// File: home.js
+const service = require(‘./service’).freeService
+service()
+ANS 
+Prints "freel
+O Prints "undefined"
+Error is thrown due to importing a non-existent object
+Error is thrown due to service being undefined and calling it
+
+CORS : cross origin resource sharing : 4 accepting requests from multiple origins . server with xyz.com as domain wouldn't serve requests originating from abc.com  
+                                                                                                                                                    Error is thrown due to service being undefined and calling it
+Answer Explanation :
+The freeService export statement gets overridden by the paidService module.exports statement. Find out why in the "So Which One Should I use?" section of this article. https://www.sitepoint.com/understanding-module-exports-exports-node-js/
+MOD 2
+You’ll start with creating auth tokens and then move on to using it to authenticate requests. You can use the user sign up endpoint, /v1/auth/register to create a new token for the user along with creating a User model object. This token will be sent to the user with the response which then can be used to authenticate secured endpoints.
+
+The default entry point for a node application is index.js(defualt)
+Separate file for mongoose connection and for handling requests from the front-end index.js and app.js in order 2 distinguish between these requests PLUS helps 2 assist testing ALSO there's  a possibility that
+if one file is used than consequently we will be targeting the same original DB server BOTH FOR TESTING AND request handling which can cause unwanted addition,deletion,manipulation of data . ' . a test DB should be considered which can b achieved by having 
+separate files PLUS there's a node package called supertest(searchItUp purpose) which uses an express app as an arg 4 the request method like this
+const res = await request(app).post("/v1/auth/register").send(newUser);    
+index.js & app.js (superset) 
+Mocking(mockinggoose4 mocking mongoose models) vs Spying 
+fixtures(fakers(grants dummy data))
+node-mocks-http(custom req,res objects for testing the middlewares and .... & having next() within non-middleware-()s)
+
+                                                                                                                                                                                                                                                                                            A
+Always look for defaults , The TextField component of material ui has outlined as default`
+Default size is also large
+checkout the details kept for defining the email within  schema
+ email: {
+      type: String,
+      required: true,
+      trim: true,
+      lowercase:true,
+      unique:true,
+      validate(value){
+        if(!validator.isEmail(value)){
+          throw new Error("Invalid email")
+        }
+      }
+}AND 4 PASSWORD 
+ password: {
+      type: String,
+      required : true,
+      trim:true,
+      minlength : 8,
+      validate(value) {
+        if (!value.match(/\d/) || !value.match(/[a-zA-Z]/)) {
+          throw new Error(
+            "Password must contain at least one letter and one number"
+          );
+        }
+      },
+    },
+challenges This is interesting i can consider the latest entry for schema validation by means of the this keyword 
+
+userSchema.statics.isEmailTaken = async function (email) {//pay attention to the way we have a static () inside the schema ALTHOUGH check below
+  const user = await this.findOne({email});
+  return user;
+};
+
+const animalSchema = new Schema({ name: String, type: String },
+{
+  // Assign a function to the "statics" object of our animalSchema through schema options.
+  // By following this approach, there is no need to create a separate TS type to define the type of the statics functions. 
+  statics: {
+    findByName(name) {
+      return this.find({ name: new RegExp(name, 'i') });
+    }
+  }
+});
+NOTES HERE
+https://dev.to/remi/express-req-params-req-query-and-req-body-4lpc
+https://mongoosejs.com/docs/validation.html
+https://www.npmjs.com/package/validator
+https://mongoosejs.com/docs/queries.html
+type: password 
+UPDATES : 
+M willing to re-create the same project with some other DB such as MySQL  2 add the SQL flavour to my project + Features of SQL(Why not PostGres ) vs NoSQL 
+Implement the backend with Go-Lang's fiber framework 
+Incorporate GraphQL in my project along with explaining its need while aligning it with its purpose 
+
+
+accordian , carousal 
+findByIdAndUpdate AND This is interesting 
+SECURITY 
+verified authorization by keeping app.use(validator) on top of other app.use(router) commands , thereby guarding the data at the first place itself , since 
+access will b allowed only when the user api request has the required credentials||headers 
+
+IF ASKED 4 ISSUES / BUGS / CHALLENGES : 
+---24th April 2023 --- 
+
+Qtrip Dynamic :
+
+Color picker https://uicolorpicker.com/
+absolute and relative positioning of the adventure name came to the top right of the window  
+Carousel issues can be considered too 
+date format - 
+toLocaleString - https://www.w3schools.com/jsref/jsref_tolocalestring.asp
+toLocaleDateString - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+To understand the issue answer this 
+const date1 = new Date(2021, 2, 1)  console.log(date1) ? Mar 01 2021 | Feb 01 2021 | Jan 02 2021 | None                                                                                                                                                                     Mar 01 2021 The monght arg to a Date() method is zero-based which has a range of 0-11 (using western calendars)March has an index value of 2 , with January being zero 
+const date2 = Date('Thu, 01 Jan 1970 00:00:00 GMT') * console.log(date2) ? Error | Current Date | Thu, 01 Jan 1970 00:00:00 GMT | None of the above                                                                                                    Current Date . A Date instance created with Date(arg) will always return current (today's) date.In other words the args are ignored Date('any-random-argument') is an alias for new Date() The missing  piece is the new keyword:   new Date(dateString) 
+previously - const time = Date(ele.time).toLocaleString("en-IN",{dateStyle:"long",timeStyle:"full",hour12:"false"}).split("at").join(","); 
+later time = convertTime(ele.date)
+date = convertDate(ele.date);
+function convertDate(date){
+    date = new Date(date);
+    return date.toLocaleDateString('en-IN', { year: 'numeric', month: 'numeric', day: 'numeric' });
+  }
+now
+function convertTime(time){//there's one ti.png kept this one instead and it 
+    time = new Date(time);
+    const date = time.toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })
+    return date + ', ' + time.toLocaleTimeString('en-IN');
+  }
+
+
+The city name was not showing while displaying activities . Sionn of Bangalore and check for the available places shown on the adventures page and . ' . correct it instead of 100+ places  
+Also one needs to generate some random quote like great adventure , wise choice or some other cringe worthy statements 
+well carousel for updates - here's what a carousel 
+The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators. 
+
+FOR BELOW BUG 
+
+QtripDynamic :
+If it will be a DevOps project then we can consider testing as an update to incorporate the CI of CI/CD where in the initial stages my app would be built with absolutely no errors lke some 
+ideal application .  
+Category section was not presented the way I wanted  positioning and bubbling and capturing , lets create scenarios ............................... HOPE THIS HELPS
+Json marhsaling since boldDB bucket required json data in indented format meant I could't HOLD ONNNN! No i did not have some.json file or did I .........
+Go concurrency was achieved by Go runtime since it was operating concurrently 
+
+XFLIX BACKEND CHALLENGES  
+remember after adding a parameter to the command for db manipulation u saw the updated result instead of the last2last data  
+something related to validations 
+same Object.hasOwnProperty ?? 
+
+QKART BACKEND CHALLENGES 
+winston - logging library 
+helmet - https://www.geeksforgeeks.org/node-js-securing-apps-with-helmet-js/ 
+This can help utils>pick.js Object.hasOwnProperty. - https://amnsingh.medium.com/whats-the-deal-with-object-prototype-hasownproperty-call-45bf8f8e1e83 
+catchAsync - serves as a wrapper for functions to handle any potential errors   
+Adding the auth() middleware to the endpoint route handler will ensure the subsequent callbacks only get called if authenticated 
+The user id is retrieved from the payload of the valid token passed. This is then utilized to fetch the correct cart object from Mongo. Hence, a user can’t fetch another user’s cart data 
+even with their valid token 
+Create some issues out of Joi package being used in the config.js file within config folder  
+Resolving Issues with the passport library can also be challenging 
+Why repository pattern for qkart - https://makingloops.com/why-should-you-use-the-repository-pattern/ 
+NodeJs Event loop - https://nodejs.dev/learn/the-nodejs-event-loop 
+Following two middlewares are used two override the default error handling behavior (which is html not json) 
+more on express - error handling - https://expressjs.com/en/guide/error-handling.html 
+o errorConverter - 
+o errorHandler -  
+link
+BUGS for GO LANG FIBER PROJECT QKART FIBER 
+Look for problems one can come across while working with go routines since 
+1 .  U've used them in service files 
+2 . Can convince the interviewer that u know something about the Go Lang's X FACTOR  
+
+BUGS 
+consider this implementation of addProductToCart - // it uses catchAsync  
+. ' . if it is removed before using this solution and a request is triggerred from PostMan I saw the error that Product does't exist means 
+request was pretty much received by the server , its just this () is async therefore error needs to be passed on to the next middleware to notice 
+the JSON error on the frontend   
+const addProductToCart = async (req, res, next) => { 
+  try { .addProductToCart( 
+      req.user, 
+      req.body.productId, 
+      req.body.quantity 
+    ); 
+    res.status(httpStatus.CREATED).send(cart);
+  } catch (err) {
+    next(err);
+  }
+};
+. ' . we use catchAsync as it serves the same try-catch purpose , only difference being it uses a Promise.catch() syntex to do that 
+function catchAsync(fn) {
+  return function(req, res, next) {
+    Promise.resolve(fn(req, res, next)).catch((err) => next(err));
+  }
+}
+
+Consider this as a challenge Since bloating/crowding of the file will happen anyway be it a controller or some service file(Although will be a service file) - 
+Solution -  encapsulating ()s present within a single wrapper (obj )  present within a given service file to ensure default export plus accessing these ()s with dot separator   
+after instantiating the imported class     
+ 
+  
+use fist as last data and palm as new data got from manipulating the first data(if that is the case) then return fist instead of palm symbolizing absence of {new:true}   
+While attempting to receive an updated record corresponding to some specific id of the document belonging to a collection of my DB , i found out that   
+findByIdAndUpdate(id , updatedProperty?? , {new:true})//default is false which would return the old values   
+use this link fo rmore details : https://www.npmjs.com/package/validator both for above and below   
+Nesting Schema - schema having a static method/function?? I wanted for further more restrictions for users creating their id such as u know   
+Key                                                           Properties                         
+fullName :                                                  type string max char = 25  
+email :                                                       type string , valid email max characters    
+Twitter handle :                                          type string    
+image :                                                      string valid url     
+
+the type of a particular field is set as author : {type : [authorSchema]} where authorSchema is new schema from author = new mongoose.Schema({}) // here {} symbolisez an object
+ however authorSchema is enclosed within [] as an array   
+ans = an array of obj : [ {} , {} ]  also mongoose.Schema({} , {}) has a second parameter 2 resolution was to keep mongoose.Schema({},{ _id : false})    
+Also Try to make some useCases from $or: $and: Also we can use regex in the backend too by using $regex :  try to look for it in the session     
+$isEmail/$isURL etc  from here    
+---- Code ---    
+const authorSchema = new mongoose.Schema({//mongoose was required before    
+    fullName : {type: String, maxlength: 25},   
+    twitterHandle : {type: String},   
+    email: {type: String, required: true, maxlength: 50},   
+    image: {type: String}     
+}) ;   
+const schema = new mongoose.Schema({  
+  publishedAt: {type: Date, defualt: null},    
+  author: {type: [authorSchema]}, //NOTE NEW THEORY array of objects   
+  content: {type: String, default: " "},   
+  title: {type: String, required: true, unique: true},    //unique is a field ??  
+  {timeStamps : true}  
+})  
+{   
+    "title": "rajeshtest",      
+    "author": [{     
+        "fullName": "rajesh sivanesan",      
+        "email": "test@gmail.com"     
+    }],      
+    "content": "testing connect"      
+}     
+----   
+
+yes i had seen that i couldn't access the body of the POST request url as sent from the front-end within my server's index.js  , because it was not in the 
+json format , (was rather text ??!). ' . used another middleware which was express.json() --> app.use(express.json()) 
+i was thinking of fetching those  records/documents from my MongoDB 's dataBase (MyDB's collection myTodos) whose startDate and endDate lied within the range specified by the user in the front-end 
+which n turn will still be a GET request BUT it will require this data range to passed to the back-end so that i could be considered while fetching data from the DB  
+
+HOW TO DEBUG 
+Upon coming across errors including functions look if the parameters were ALL used or not . Are u introducing something new that does not have any concerns with the params ? If yes are they globally available ? 
+
+
+CF CNOTES FURTHER READING 
+
+How Netflix and Paypal did product transformation using Node.js? 
+
+
+ES6 ways to simplify writing Node.js code 
+
+Top 4 JS concepts for a Nodejs beginner to know  
+ 
+What are callbacks?  
+
+Top 5 syntactic weirdness to be aware of in MongoDB  
+
+CF CHAT CONTENT NOT TOUCHED YET 
+
+You can check now that your portfolio is updated at https://www.crio.do/learn/portfolio/yogeshdharya 
+Just copy and paste the URL into another tab. 
+
+Also, if you have to receive the GitHub Contributions email, kindly accept those and let me know. 
+You can check this for more: https://help.crio.do/a/solutions/articles/82000696482
+
+NOTE: Kindly make sure that you have enabled private contributions and activity overview contribution settings (GitHub > Your profile > Contribution settings) in GitHub and accept the GitHub invitations in your email inbox.
+
+The detailed steps are mentioned in the FAQ.
+Grad1
+If you completed the above steps, please inform us.
+Kindly accept the invitations from email and also enable both private and activity overview contribution settings as shown in the image above in your Github profile page
+can you first accept the email invites ?
+still its pending
+will push your codes after that
+On it 
+I'll do one thing I'll copy the directions given by you 
+8 minutes ago 
+Soundradevi 
+check your email 
+New Messages 
+
+Soundradevi 
+you will have received invites from crio 
+accept invite for each project 
+sure 
+Sat, 1:59 PM 
+Soundradevi 
+pls make it fast 
+am waiting to go for lunch 
+Weather in my area ismaking My Internet laggs to lag 
+2 minutes ago 
+Soundradevi 
+okay no prob please do the prerequisite as mentioned in the chat and raise the chat again. we will push the codes. 
+now i close the chat for now. 
+I am marking this chat as resolved for now . If you have any additional questions, do not hesitate to contact us back. 
+
+INTERVIEW   QUESTIONS 
+
+
+Encoding : En - coding or converting the given code into some other format essentially speaking it is nothing but 
+representing the given data of some existing format into some other format by transforming it utilizing some publically(private under development??) available scheme  .
+This new format is achieved by performing transformation on the given sequence of characters/symbols/numbers/specialCharacters that we have via schemes like   
+And the idea behind encoding is to impart compatibility to given a piece of code cause what is coding the opposite of en-coding where code is still readable 2 a developer but it needs to be
+compiled into machine readable format in order to be understandable to the machine too .   No key is required
+Encryption : A key is required 4 converting the data into some other format .
+Hashing : refers to the process of using a hashing algorithm on a given data so that it becomes far more complex than its original format . Is totally un-readable 
+However , hackers can 
+
+User authentication : 
+(i)Cockie based user authentication : old cockie approach involves performing validations on the submitted form and  creating a session with the DB . This DB responds with a session ID which is stored in the 
+coockie jar of the browser() This coockie jar is the place where  confedential data is stored in the form of key-value format  which is used for every http request made from the browser to the desired 
+server by the xyz user . The user then can receive data available from the server .That is to say we have a STATEFUL session between the server and the client 
+This data stored in the coockie called the session id remains active for specific duration only but it can turn in-active ur activity on the webSite falls down i.e. 2 say if ur inactive on a website ur session id
+consequently ends up being in-active . WebSites like FB have long lived sessions whereas banks have shorter ones(like 5min)
+However CSRF can be an issue in this case cause attackers can point users to a target server prompting them to perform actions which they don't want 2 such as making payments/changing passwords(modern
+frameworks such as flask&jango reduces this risk)
+another problem includes storage of the session-Id in some in-memory DB or local DB . In production where Horizontal DB scaling occurs  this seems to be problematic cause of the bottleneck situation
+(ii) JOT based authentication : Here instead of the session-ID a JsonWebToken is created .This token contains a private key from the DB and is stored locally in the browser . On future requests to the server
+this JOT is added in the authorization header prefixed by bearer. Thus the server just needs to validate the signature present on the auth header which in turn cuts the need to look-up for some storage source 
+
+Module 2 ->v1 : new version comes but we want to keep v1 intact i-> have different router  
+app.use("/v2",newRoute)
+model is the midium of communication 
+UNLIKE the SIGNATURE (private) the header & payload are de-codable via a base64 decoder
+we cannot tamper the token which makes it authentic and therefore there's no need to rely on some third party storage since the data itself is sufficiently true and authenticated(single source of truth) AND THEREFORE 
+they are stateless (NO NEED 2 STORE?) So we keep a check at the backend if the user logs-out the token expires/removed  
+one task at a time services unit testing 
+bussiness logic within controllers integration testing
+Testing : May be we can call it as the process which is undertaken in order to ensure the expected behavior of the software
+unit of code : smallest possible code commodity 
+function : set of instructions or collection of units of code 
+module : set of functions 
+only : test case is operated alone rest are neglected  
+not : negation 
+testing depending on network calls 
+beforeAll>beforeEach(or beforeEachTestCase)>afterEach>afterAll
+testable code refers to the one which produces static output irrespective of the environment 
+  let currentTime = new Date();   
+    let hr = currentTime.getHours();
+    console.log(hr)
+    if(hr < 12) {
+        return "morning";
+    }
+    if(hr < 16) {
+        return "afternoon";
+    }
+    if(hr > 16) {
+        return "evening";
+    }
+instead 
+it('Verify that 15 returns afternoon', () => {
+        const mockDate = new Date(2021, 3, 24, 15, 0, 30, 0)
+
+        // Create a system spy...NEW
+        const spy = jest.spyOn(global, 'Date');
+        spy.mockImplementationOnce(() => mockDate);
+        
+        let output = functions.whatTimeIsIt();
+
+        expect(output).toEqual('afternoon');
+        // Check if the spy was called
+        expect(spy).toHaveBeenCalledTimes(1);
+    });
+However afterEach and beforeEach can run at the start/end of every test case 
+
+Passport  : a NodeJS package which serves as a middleware required for performing authentication specific to some strategy(jwt strategy , facebook strategy)
+new version would be better (so new documentation lookups and maintenance)
+LEFT SESSION :  
+interview kick start  
+
+DBPASSWORD - K7OISjZaY7XwZpDS
+CSE yogesh userName - admin password - Cfx1Jmj4bOx9HFOv
+mongodb+srv://admin:Cfx1Jmj4bOx9HFOv@qcart-node.fmajd4k.mongodb.net/?retryWrites=true&w=majority
+
+"mongodb://ac-t7kxqwc-shard-00-00.fmajd4k.mongodb.net:27017,ac-t7kxqwc-shard-00-01.fmajd4k.mongodb.net:27017,ac-t7kxqwc-shard-00-02.fmajd4k.mongodb.net:27017/?replicaSet=atlas-137i00-shard-0" --ssl --authenticationDatabase admin --username admin --password Cfx1Jmj4bOx9HFOv
+Aszw1Tpt7DV6rdFL
+
+DHARYA  admin -  oNelEwcMnqYEErPn 
+mongodb+srv://admin:oNelEwcMnqYEErPn@qkart-node.rbcs7e0.mongodb.net/?retryWrites=true&w=majority
+mongo "mongodb://ac-bxypubc-shard-00-00.rbcs7e0.mongodb.net:27017,ac-bxypubc-shard-00-01.rbcs7e0.mongodb.net:27017,ac-bxypubc-shard-00-02.rbcs7e0.mongodb.net:27017/?replicaSet=atlas-103606-shard-0" --ssl --authenticationDatabase admin --username admin --password oNelEwcMnqYEErPn
+mongo "mongodb://ac-bxypubc-shard-00-00.rbcs7e0.mongodb.net:27017,ac-bxypubc-shard-00-01.rbcs7e0.mongodb.net:27017,ac-bxypubc-shard-00-02.rbcs7e0.mongodb.net:27017/?replicaSet=atlas-103606-shard-0" --ssl --authenticationDatabase admin --username admin --password oNelEwcMnqYEErPn
+mongosh "mongodb+srv://qkart-node.rbcs7e0.mongodb.net/" --apiVersion 1 --username admin
+mongodb+srv://admin:Aszw1Tpt7DV6rdFL@qkart-node.22ptcg8.mongodb.net/?retryWrites=true&w=majority
+connection string - mongo "mongodb://ac-dtwn4f2-shard-00-00.22ptcg8.mongodb.net:27017,ac-dtwn4f2-shard-00-01.22ptcg8.mongodb.net:27017,ac-dtwn4f2-shard-00-02.22ptcg8.mongodb.net:27017/?replicaSet=atlas-ijegol-shard-0" --ssl --authenticationDatabase admin --username admin --password Aszw1Tpt7DV6rdFL
+
+https://github.com/YogeshDharya/yogeshdharya-ME_QKART_BACKEND  
+DBPASSWORD Dhairya (qkart-node for all the names )- kkvqHv4cPeaJ01IW 
+mongodb+srv://dantedharya:kkvqHv4cPeaJ01IW@qkart-node.y7febw8.mongodb.net/?retryWrites=true&w=majority
+223.226.241.93/32 
+For access management - network access page
+
+https://cloud.mongodb.com/v2/657ff64f95018e272aa6e4af#/security/network/accessList
+LEFT - 
+
+o src/rotues/v1/video.routes.js -> router.get("*",validate(videoValidation,filterVideoByParams),videoController.getVideos); //4 heroku 
+o middlewares > error.js 
+o inside app.js  app.use("*",router)
+o router.use("*",videoRoutes);//routes/v1/index.js
+o router.get('*',validate(videoValidator.getVideos),videoController.getVideos);//video.routes.js 
+
+o  app.js  app.use("*",router);// This command makes the app operative with heroku WHAT ?? 
+o validations>custom.validator.js> const genres = (values,helpers)=>{if(values == null) return true;} 
+o validations/video.validation.js filterVideoByParams , videoById 
+o What's the path the control logic follows with respect to Express applications ? controller then the routes ?? 
+o It did not go inside LinkValidator also some issues with catchAsyc .  async inside catchasync ? 
+o is it not even touching the validate() middleware 
+
+router.get("/:videoId",validate(videoValidator.getVideos),videoController.getVideoByTitle);
+
+vi deo.service.js : getVideos() 
+/ *
+        for (let i = 0 ; i < AllContentRating.length ; i ++ ){
+             if( AllContentRating[i] <= rating) arr.push(new RegExp(AllContentRating[i],"i"));
+        } 
+        console.log(arr) 
+        obj.contentRating = { $in : arr}; 
+        */ 
+
+ 
+Here's a breakdown of what each part means: 
+ 
+obj.contentRating: This refers to the contentRating field in the MongoDB document (obj). 
+ 
+{$in: arr}: This is a MongoDB query expression. It checks whether the value of the contentRating field is in the array arr. 
+
+Putting it all together, the expression obj.contentRating = {$in: arr} is updating the contentRating field in the MongoDB document (obj). The new value assigned to contentRating is an object that uses the $in operator to match any value in the specified array (arr).  
+  
+const arr = ["PG", "PG-13", "R"]; 
+const filter = { _id: ObjectId("your_document_id") }; 
+const update = { $set: { contentRating: { $in: arr } } }; 
+ 
+// Update the document with the new contentRating 
+db.collection.updateOne(filter, update); 
+ 
+PENDING    
+images can be used for the ReadMe 4 both qkart and xflix   
+QKART BACKEND RENDER DETAILS   
+Name - Qkart-Backend   
+Run-time - Node   
+build command - npm install    
+start cmd - npm start    
+branch - master    
+root dir - src    
+instance type - Free 4 hobby/side projects   
+Env vars - kept blank    
+Adv - Auto depoy Yes    
+publish directory : ./build   
+  
+https://65898af7818c42e5db285f2c--friendly-lollipop-77cd38.netlify.app  
+
+--- 
+CAREER GAP :
+resume -  I had dedicated my career gap to intensive learning and skill development in critical 
+areas of the tech industry, including backend development, cloud computing, and container 
+orchestration. This period allowed me to gain knwoledge in languages like JavaScript ,Go Lang ,YAML etc, 
+along with their relevant frameworks, and to complete several projects that demonstrate my capabilities. 
+I acquired substantial knowledge in AWS cloud services, focusing on designing, deploying, 
+and managing 
+scalable applications. 
+Additionally, I learnt containerization and orchestration tools like Docker and Kubernetes, 
+which enable effective management of microservices architectures and 
+seamless application deployment and scaling
+____________________________________________________________________
+MUST INCLUDE 
+i We were not taught Go lang or YAML back in clg - 
+  But then why yaml ? --> Human readable , docker-compose.yml file but then their are alternatives too such as lang specific docker clients   
+  I gained my interest when I landed on the 
+  github handle of these technologies docker n k8s and saw that the language distribution stated that 
+  go lang was used intensively for developing them up.
+ii Containerized application spinning on cloud and orchestrated through 
+  o Bare metal vs Vms vs containers 
+  o Need for orchtestration - compose vs swarm vs k8s  
+It took time to gain clarity towards all this besides giving it shape and face in the form of projects was quite time consuming too so yes that't the reason why my career gap was valuable in some sense 
+INTV ans - I spent my career gap focused on educating myself and enhancing my skills in the technology field. This included learning how to code in areas like the 
+backend, cloud computing, and container 
+orchestration. By doing this, I gained some new stuff in terms of languages for the backend such like Javascript ,Go Lang ,YAML etc and their corresponding frameworks and was able to work on various projects that showcase what I can do. 
+I have learned in-depth about AWS cloud services, which includes designing, deploying, and managing 
+of scalable applications. 
+So, I had got hands experience on containerization and orchestration tools like Docker and Kubernetes, 
+which is a way to manage microservices architectures and 
+has the potential to be implemented in different areas, like in case of applications that require 
+to be expanded and to adapt to different usage scenarios
+OR may be - 
+My career break or sabbatical as you would prefer to call it, I reserved it for intensive training and skill building in key areas
+technological areas such as backend development, cloud computing, and container technology.
+Orchestration is what i was involved in during that time. That period gave me a chance to pick up on languages such as JavaScript ,Go Lang ,YAML etc,
+ogether with the relevant frameworks that accompany them, and finishing some projects that will show my abilities is all that I ask for in return.
+I am now well grounded in AWS cloud technology with a bias towards implementation of and not just using the solutions.
+and managing
+scalable applications.
+Thanks to this, I had a chance to get acquaintance with Docker and Kubernetes, the most popular containerization and orchestrations tools.
+which enable effective management of microservices architectures and
+seamless application deployment and scaling
+
+---
+For the input 
+4
+3 1 4 1
+Expected output was 
+3
+Actual Output was 
+1
+---
+MD 
+o # Giant heading 
+o ## Sub-Heading 
+o **Bold** 
+o *Italics*
+o [websiteLink](https://google.com)
+o --- gives blank line 
+o orderedList - 1 then 2 then 3 
+o newLine ?? 
+---
+https://www.credly.com/badges/cafd5ad0-02be-46c7-bb4c-bee78fb10201/public_url
+
+VStore 
+Bcrypt.js salting/hashing algorithem reason behind having it instead of encryption , encoding etc 
+Rainbow table attack can be tackled with salting 
+Enhanced security and user experience for authentication by implementing secure user authentication using Passport.js with the JWT strategy for token-based authorization, reducing 
+ server storage requirements for session data by 70% and providing a seamless user experience for login and signup. 
+Question -  how is it that data stored within a jwt token consumes 70% of the data in the session storage  
+Server session storage is a mechanism for maintaining user state across multiple requests in a web application. It holds data that is necessary for the application to manage user interactions, authentication, and other features 
+Types of data it can hold  
+o Auth data  : sessionId (unique identifier for the session) user credentials , session tokens 
+  timeStamps , ip addresses 
+o Application state : 
+      Current page state (data 2 maintain state across multiple req -> paginated list or multi-step from progress)
+      Navigation data : not present in my project (inform)
+o Temporary data : Cart Data(list<ProductId>before checkOut) , partially filled payment form like a partially filled process(not in my project) but what if internet went away in the middle  
+o Anti-CSRF tokens 
+
+Understanding Data Storage in JWT Tokens vs. Server Session Storage
+To explain how data stored in a JWT token can lead to a 70% reduction in server session storage requirements, we need to understand what gets stored in both JWTs and server sessions, and how this impacts the storage requirements.
+
+How JWT Tokens Work
+JWT (JSON Web Token) is a compact and self-contained way to represent information between two parties. Here's a breakdown of how JWTs reduce the need for server-side session storage:
+
+Structure of a JWT Token:
+
+Header: Contains metadata about the token, like the type of token and the signing algorithm.
+Payload: Contains the claims or user data, like user ID, email, roles, and other information.
+Signature: Used to verify that the token has not been tampered with.
+Example JWT Payload:
+
+json
+Copy code
+{
+  "sub": "user123",
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "roles": ["user"],
+  "iat": 1614592090
+}
+JWT Token Storage:
+
+JWTs are stored on the client-side (typically in local storage or cookies) and are sent with every request.
+How JWT Reduces Server Storage
+When you use JWTs for authentication, you store the following data on the client side rather than the server side:
+
+User Data:
+
+JWT Payload: Includes essential user information and claims like user ID, email, roles.
+Example: Instead of storing user ID and email in the session on the server, you encode these into the JWT.
+Session Metadata:
+
+JWT Header and Signature: The token's metadata and signature ensure the token's integrity and authenticity, which do not need to be stored on the server.
+Example Comparison of Data Storage
+Here’s a simplified example to show how JWT can handle data versus server sessions:
+
+Server Session Storage
+Data Stored	Example Content	Size Estimate
+  Session ID	sessionId:1234567890	16 bytes
+  User ID	userId: user123	8 bytes
+  User Email	email: johndoe@example.com	20 bytes
+  User Roles	roles: [user]	10 bytes
+  Token Metadata	creation time, expiration	24 bytes
+  Total Storage per User	78 bytes	
+  JWT Token
+  Data Stored	Example Content	Size Estimate
+  User ID	"sub": "user123"	16 bytes
+  User Email	"email": "johndoe@example.com"	20 bytes
+  User Roles	"roles": ["user"]	10 bytes
+  Token Metadata	header and signature (encoded)	30 bytes
+  Total Storage	76 bytes	
+Why JWT Tokens Reduce Server Storage by 70%
+When you use JWTs, you eliminate the need for storing user-specific session data on the server. Here’s how it reduces server storage:
+Client-Side Storage:
+JWTs: Store user data (ID, email, roles) and metadata in the token itself. This data is managed client-side and included in each request.
+Server-Side Storage:
+Sessions: Requires storage for session metadata, user data, and often additional mechanisms to handle state and security.
+Illustrative Example:
+Storage Type	JWT Storage	Server Session Storage
+User Data Size	30 bytes (in JWT)	34 bytes (stored server-side)
+Session Metadata	Included in Token	Additional storage required
+Data Stored:
+JWT Token: Combines multiple pieces of information (user ID, email, roles, and metadata) into a single token sent with each request.
+Server Session Storage: Must maintain separate entries for each piece of data and metadata.
+By moving user data and session metadata to the JWT, you reduce the amount of data that needs to be stored on the server, which can represent a 70% reduction in storage if the server was previously storing similar data.
+Updates : aws firehose analytics , payment gateway integration with javaScript (other than stripe,razorpay)
+LEFT TODO 
+what 's Behance portfolio link 
+o Social Media 
+   Avoided - follower-followee relationship so MySQL integration 
+   - Icloud share , cloud backUp shall integrate cloud 
+   - Trending , userAccount activity -> analytics might require python/R or may be js is sufficient somehow 
+GoDocz NewZ website 
+ 1 of deci - Improved deployment efficiency and reduced operational issues by utilizing Docker to containerize application components, ensuring consistent environments across development, testing, and production, reducing deployment time by 50% and decreasing compatibility and configuration-related issues by 80%.
+  Reason/Logic :   
+      Compatibility Issues:
+          Dependency Conflicts: Different environments may have different versions of libraries, frameworks, or dependencies, leading to conflicts.
+          Operating System Differences: Variations in OS configurations and versions can cause applications to behave differently or fail to run.
+          Configuration Inconsistencies:
+
+          Environment Variables: Differences in environment variable configurations between development, testing, and production environments.
+          File Paths and Permissions: Inconsistent file paths or permission settings that can cause issues.
+          Deployment Inconsistencies:
+
+          Script Differences: Different deployment scripts or processes used in different environments can lead to errors or inconsistencies.
+          Manual Steps: Manual steps in deployment processes that can introduce human error.
+          Coupling Issues:
+
+          Tight Coupling: High interdependence between different parts of the application, making it difficult to deploy and manage individual components independently.
+Monolithic Architecture: Monolithic applications where changes in one part of the system can affect other parts, making deployment more complex.
+By using Docker, you encapsulate the application and its dependencies into a container, which ensures that it runs consistently across different environments. This means the same container can be used in development, testing, and production, thereby eliminating many of the issues related to environmental differences.
+ - Microservices : 
+ Microservices : 
+User Service: Handles user authentication, profile management, and user-related data.
+News Service: Fetches and processes news data from various APIs and serves it to the frontend.
+Media Service: Manages media assets, such as images and videos, associated with news articles.
+Notification Service: Sends notifications to users about new articles, updates, or other events.
+Analytics Service: Tracks user behavior, article views, and other analytics data.
+Using Fiber and Go Kit
+You can indeed use both Fiber and Go Kit in your Golang project. Here’s how:
+
+Fiber: This can be used as the web framework for handling HTTP requests, serving static files, and providing a user-friendly interface for your microservices.
+Go Kit: This can be used for creating and managing the business logic of your microservices, providing a structured way to implement microservices with clear separation of concerns.
+Tech Stack : 
+fiber + 
+Microservices 
+Containerization 
+Github Workflow (github actions anyways near Ci/CD) 
+K8s cluster on AWS 
+
+  Solution :
+    Currents Api = https://api.currentsapi.services/v1/latest-news?apiKey=YOUR_API_KEY
+    NewsAPI = https://newsapi.org/v2/everything?q=keyword&apiKey=YOUR_API_KEY some more below 
+       MediaStack - http://api.mediastack.com/v1/news?access_key=YOUR_API_KEY&keywords=keyword
+       Global Database of Events, language and tone -  https://api.gdeltproject.org/api/v2/doc/doc?query=keyword&mode=ArtList&maxrecords=50&format=json
+    Concerning Currents n news Api by placing the API key in the URL allows you to authenticate your requests and fetch specific results dynamically based 
+    on user input from the frontend. The API key is a unique identifier that allows the API service to track and limit your usage according to the plan you have signed up for.
+
+User Input: The user enters a keyword or query in the frontend.
+Fetch Data: Your JavaScript code constructs a URL with the user input and your API key.
+API Request: The constructed URL is used to make an API request to fetch data.
+Display Results: The fetched data is processed and displayed in the frontend. 
+    yt Video - https://www.youtube.com/watch?v=Y0QBmXEylP8 
+     after clicking below first go to Tools -> Public Apis 
+    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblhXU2pISlZKakxmS25Mczd1a3FLMF9MWlZpQXxBQ3Jtc0ttWmhNbnI4bE54VjN1WjFOQXVkT0xHWl82MjFtTm5NSzVweVAyS0dyeXdSSjRaU0duZGpodHlnY0NQM2U2dUpPeTV2a29tVm5idXNUUGJnTEVVVGVXdWZWZEUzbDZNNzYzTGlBRDIxdjVIMjJJUVc0WQ&q=https%3A%2F%2Fdevresourc.es%2Ftools-and-utilities%2Fpublic-apis&v=Y0QBmXEylP8 
+UPDATES : 
+  onion folder architecture pros n cons in a comparitive manner thereby xyz 
+  EITHER  
+    have Yaml as part and keep below as update an Google Remote Procudure Call for communication between containers 
+  OR 
+    go through https://www.crio.do/projects/docker-kubernetes-intro-git/ since it has bring it on FOR EACH section 
+    PENDING DOUBT view all objects in a namespace(isolated environment/space) cause we know what c groups do they restrict resource usage 
+    o Using a YAML specification file isn't the only way to create objects in Kubernetes. Find out what imperative and declarative methods mean, here. Try creating an object using the imperative method. 
+    o Pods aren't the only objects that you can deploy on Kubernetes. Find out about more options that you have, here. Create a deployment object which runs your application inside a pod.
+    Look for certain possible updates concerning k8s since we are using a handful of its features    
+
+o cryptography go lang projects ? 
+  I wanted to understand the purpose behind having these microservices and the reason behind having them operating in an entirely separate independent environment such as container in the Dockerfile in each of these microservice directories . Are we trying to fetch 
+PENDING PROJECT IDEAS above 2 
+
+o cryptography projects in go lang 
+o diwize or wiz studio (or both) had src download links(code with chai YT) see in project playlist 
+o existing app folder architecutre similar to MVC design pattern ? Implement onion architecture in ur new code project 
+  also look for other folder-file architectural optimizations  
+o containerize existing applications by decompositing them into microServices so that they can independently deployable components  
+o make those containerized application components interact with graphQL 
+o look for reasons to incoroprate orchestrators like docker-compse or k8s 
+o add payment gateway - strip 
+o frontend from three.js may b (u did like react initally so may be angular )
+
+---
+
+responsive web design - https://www.youtube.com/watch?v=SfUMPtnUtk8&feature=youtu.be
+responsive web design - https://docs.dhiwise.com/docs/react/responsiveness-and-design-configuration/
+create custom components - https://www.youtube.com/watch?v=HaJV9IWAvI0&feature=youtu.be
+create custom components  - https://docs.dhiwise.com/docs/react/create-custom-components
+GetGadgets 
+--- 
+XFLIX 
+o frontend hooks had following bugs 
+- InputLabel 1:73 is defined but never used 
+-1:84 Select is defned but never used 
+
+- VideoPage.js 
+112.:7 Reach Hook useEffect has missing dependencies : 'fetchVideos' and params.id'.Either   
+127 "" params.id include or remove 
+
+- Video.js 
+25 rect hook missing dependencies fetchVideos and generateFinalURL either include or remove 
+---
+
+
+
+1. Portfolio - https://www.crio.do/learn/portfolio/yogeshdharya 
+2. Github Contributions - 
+QTrip Static - https://github.com/CrioDo/yogeshdharya-ME_QTRIPSTATIC 
+QTrip Dynamic - https://github.com/CrioDo/yogeshdharya-ME_QTRIPDYNAMIC 
+XBoard - https://github.com/CrioDo/yogeshdharya-ME_BUILDOUT_XBOARD 
+QKart Frontend - https://github.com/CrioDo/yogeshdharya-ME_QKART_FRONTEND_V2 
+QKart Backend - https://github.com/CrioDo/yogeshdharya-ME_QKART_BACKEND 
+XFlix Backend - https://github.com/CrioDo/yogeshdharya-ME_BUILDOUT_XFLIX_NODE 
+TODO DSA      
+BACKEND_PORT=8082   
+DB_URL=mongodb://127.0.0.1:27017/xflix    
+React mini projects - https://github.com/SomneelMaity/React_Mini_Projects_5/tree/main/XModal/x_modal 
+Qtrip Dynamic render - https://qtrip-dynamic-sfdp.onrender.com    
+Qtrip dynamic vercel - https://qtrip-dynamic-30qq9vrfv-yogesh-dharyas-projects.vercel.app/   
+for making vercel changnes - https://vercel.com/yogesh-dharyas-projects/qtrip-dynamic/settings  
+Xboard netlify link - https://superlative-travesseiro-547193.netlify.app/  
+Found one more qkart render link - https://qkart-backend-aooz.onrender.com/v1 
+one used by me - https://qkart-backend-6g8d.onrender.com  
+#mongoimport --uri "mongodb://ac-5pcitzw-shard-00-00.zowfyju.mongodb.net:27017,ac-5pcitzw-shard-00-01.zowfyju.mongodb.net:27017,ac-5pcitzw-shard-00-02.zowfyju.mongodb.net:27017/?replicaSet=atlas-g6q8ig-shard-0" --ssl --authenticationDatabase admin --username yogeshdharya --password Monu@2000 
+Qkart Reac v2 whatever github App.js   :  
+    - config={endpoint : `https:{ipConfig.workspaceIp}:8082/api/v1` };     
+Qkart Frontend of Qkart's BACKEND  :  
+    export const config = {  endpoint: `https://qkart-backend-6g8d.onrender.com`,}; 
+mentor doubts  
+I get check if the - the backend is running and is reachable   
+Will I have to check render every day ? Because that is what's making my frontend on netlify to stop working ?  
+Will I have to res-start it every time ? Should I use hostinger instead ??  
+Should I use env MONGODB_URL value as mongodb port from Qkart in xflix too ?  
+ 
+Qkart Frontend Hooks render  - https://qkart-frontend-ix54.onrender.com 
+Qkart Frontend Hooks vercel  - https://qkart-frontend-25f8vv6ld-yogesh-dharyas-projects.vercel.app/ 
+qkart frontend - https://65898af7818c42e5db285f2c--friendly-lollipop-77cd38.netlify.app 
+NOTE - below qkart backend is not running for some reason why though  
+Qkart backend render - https://qkart-backend-6g8d.onrender.com  
+Xflix render - https://xflix-backend-5g2b.onrender.com
+This is also present as endpoint property value of config variable of App.js in Qkart backend repository   
+//DB_URL=mongodb+srv://yogeshdharya:zLFR4gy658R2y5R1@xflix.zowfyju.mongodb.net/?retryWrites=true&w=majority     
+
+o Assignment submission doubts for MERN-1 and MERN-2   
+o name and region details for render website can be customized as per our will right ?  
+o workspace files &&   qtrip dynamic deployment  
+o Xflix frontend link (as seen in Qkart) since I want just the forntend otherwise the XfliX react too !!!       
+o Bugs , Challenges , with respect to MANG  
+o code editor ? or plain doc file 4 both LLD and DSA as seen in Google ?  
+o Software for UML diagrams in machine coding rounds vs LLD rounds        
+o HLD just as much taught ? The concepts (vast as such) behind solution of HLD questions as much taught during sprints nothing out of it right ?           
+o Amazon leadership principles       
+
+o resume XYZ formula    
+o 1 || 2 || 3 Suf although assignements until 5   Cause if I complete then Questiosn of all diff are expectable    
+o assignements of all DSA sprints unlocked    
+o OOP questions or straight above ?      
+o HLD 
+o Finish assignements locally       
+o sys design bar ---- raiser more CTC or we can pretty much achieve that from any bar raiser ?     
+
+QKART HOOKS  
+
+PROJECT PENDING INTV QUESTIONS 
+qkart has an authentication token hard coded ?? 
+status codes revision 
+daily goal left that day revision required 
+XFLIX 
+
+XFLIX  PENDING 
+challenges - pre save hook ? https://medium.com/@justinmanalad/pre-save-hooks-in-mongoose-js-cf1c0959dba2
+was present in the Hash and store password of the Authentication module of Qkart  
+o static methods of mongoose schema statics vs methods - https://mongoosejs.com/docs/2.7.x/docs/methods-statics.html 
+in worksapce xflix backend had a folder data at src rigth below the backend folder with the name data had a file export_xflix_videos.json  
+src>assessment + backend + .env + package.json + runAssessment.sh + data so -> data>export_xflix_videos.json : -  
+  {"_id":{"$oid":"60331f421f1d093ab5424475"},"videoLink":"youtube.com/embed/uQxg2zv_Orc","title":"3,000,000 - Q&A","genre":"Movies","contentRating":"16+","releaseDate":"09 Mar 2019","previewImage":"https://i.ytimg.com/vi/uQxg2zv_Orc/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"2"}
+  {"_id":{"$oid":"60331f421f1d093ab5424476"},"videoLink":"youtube.com/embed/RQdxHi4_Pvc","title":"The Universal S","genre":"Comedy","contentRating":"12+","releaseDate":"10 Aug 2019","previewImage":"https://i.ytimg.com/vi/RQdxHi4_Pvc/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"5"}
+  {"_id":{"$oid":"60331f421f1d093ab5424477"},"videoLink":"youtube.com/embed/7tgdvkRY1L8","title":"Top 10 Facts - Space [Part 8]","genre":"Comedy","contentRating":"18+","releaseDate":"17 Jun 2017","previewImage":"https://i.ytimg.com/vi/7tgdvkRY1L8/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"0"}
+  {"_id":{"$oid":"60331f421f1d093ab5424478"},"videoLink":"youtube.com/embed/sf9tBmMfFcw","title":"Top 10 Facts - Reddit","genre":"Sports","contentRating":"18+","releaseDate":"03 Feb 2018","previewImage":"https://i.ytimg.com/vi/sf9tBmMfFcw/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"10"}
+  {"_id":{"$oid":"60331f421f1d093ab5424479"},"videoLink":"youtube.com/embed/fM8UapzfZkU","title":"Top 10 Facts - 2017","genre":"Lifestyle","contentRating":"18+","releaseDate":"31 Dec 2017","previewImage":"https://i.ytimg.com/vi/fM8UapzfZkU/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"9"}
+  {"_id":{"$oid":"60331f421f1d093ab542447a"},"videoLink":"youtube.com/embed/fqnKlD3PUzg","title":"Top 10 Facts - Space [Part 7]","genre":"Education","contentRating":"16+","releaseDate":"05 Oct 2016","previewImage":"https://i.ytimg.com/vi/fqnKlD3PUzg/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"100"}
+  {"_id":{"$oid":"60331f421f1d093ab542447b"},"videoLink":"youtube.com/embed/vB7Xv6gG5_0","title":"The Mandela Effect: A Critical Analysis","genre":"Movies","contentRating":"16+","releaseDate":"10 Aug 2017","previewImage":"https://i.ytimg.com/vi/vB7Xv6gG5_0/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"7"}
+  {"_id":{"$oid":"60331f421f1d093ab542447c"},"videoLink":"youtube.com/embed/AgMcqNnqatw","title":"The Legend of the Bermuda Triangle","genre":"Comedy","contentRating":"16+","releaseDate":"18 Jul 2017","previewImage":"https://i.ytimg.com/vi/AgMcqNnqatw/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"20"}
+  {"_id":{"$oid":"60331f421f1d093ab542447d"},"videoLink":"youtube.com/embed/QiFTTQyKc3w","title":"Top 10 Facts - Counter-Strike","genre":"Comedy","contentRating":"7+","releaseDate":"29 Apr 2015","previewImage":"https://i.ytimg.com/vi/QiFTTQyKc3w/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"39"}
+  {"_id":{"$oid":"60331f421f1d093ab542447e"},"videoLink":"youtube.com/embed/QGTbGoLEom8","title":"Top 10 Facts - Half-Life","genre":"Lifestyle","contentRating":"Anyone","releaseDate":"30 Mar 2015","previewImage":"https://i.ytimg.com/vi/QGTbGoLEom8/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"21"}
+  {"_id":{"$oid":"60331f421f1d093ab542447f"},"videoLink":"youtube.com/embed/OEuH1w5TLKc","title":"Top 10 Facts - Space [Part 4]","genre":"Sports","contentRating":"16+","releaseDate":"12 Jan 2015","previewImage":"https://i.ytimg.com/vi/OEuH1w5TLKc/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"29"}
+  {"_id":{"$oid":"60331f421f1d093ab5424480"},"videoLink":"youtube.com/embed/kd2KEHvK-q8","title":"The Vanishing of Flight 370","genre":"Movies","contentRating":"12+","releaseDate":"14 Apr 2019","previewImage":"https://i.ytimg.com/vi/kd2KEHvK-q8/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"20"}
+  {"_id":{"$oid":"60331f421f1d093ab5424481"},"videoLink":"youtube.com/embed/rsJH5fxDCA0","title":"Top 10 Facts - Money","genre":"Lifestyle","contentRating":"7+","releaseDate":"05 Feb 2017","previewImage":"https://i.ytimg.com/vi/rsJH5fxDCA0/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"50"}
+  {"_id":{"$oid":"60331f421f1d093ab5424482"},"videoLink":"youtube.com/embed/hN3CyODxl-c","title":"Top 10 Facts - Space [Part 5]","genre":"Sports","contentRating":"16+","releaseDate":"23 Sep 2015","previewImage":"https://i.ytimg.com/vi/hN3CyODxl-c/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"29"}
+  {"_id":{"$oid":"60331f421f1d093ab5424483"},"videoLink":"youtube.com/embed/EL5hcdXu8dc","title":"Top 10 Facts - Music","genre":"Comedy","contentRating":"12+","releaseDate":"17 Mar 2018","previewImage":"https://i.ytimg.com/vi/EL5hcdXu8dc/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"39"}
+  {"_id":{"$oid":"60331f421f1d093ab5424484"},"videoLink":"youtube.com/embed/6oY8HIWBS-Y","title":"The Battle of Los Angeles","genre":"Lifestyle","contentRating":"12+","releaseDate":"25 Aug 2018","previewImage":"https://i.ytimg.com/vi/6oY8HIWBS-Y/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"93"}
+  {"_id":{"$oid":"60331f421f1d093ab5424485"},"videoLink":"youtube.com/embed/IVDJF7pH-z8","title":"Top 10 Facts - The Legend of Zelda","genre":"Sports","contentRating":"12+","releaseDate":"08 Feb 2015","previewImage":"https://i.ytimg.com/vi/IVDJF7pH-z8/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"29"}
+  {"_id":{"$oid":"60331f421f1d093ab5424486"},"videoLink":"youtube.com/embed/j2umt3WZU8Q","title":"Top 10 Facts - Fallout","genre":"Comedy","contentRating":"18+","releaseDate":"11 Jun 2015","previewImage":"https://i.ytimg.com/vi/j2umt3WZU8Q/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"93"}
+  {"_id":{"$oid":"60331f421f1d093ab5424487"},"videoLink":"youtube.com/embed/M-VQlqE9M1M","title":"Top 10 Facts - Undertale","genre":"Comedy","contentRating":"16+","releaseDate":"11 Dec 2015","previewImage":"https://i.ytimg.com/vi/M-VQlqE9M1M/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"20"}
+  {"_id":{"$oid":"60331f421f1d093ab5424488"},"videoLink":"youtube.com/embed/ryg077wBvsM","title":"The Great Silence","genre":"Comedy","contentRating":"18+","releaseDate":"30 Nov 2018","previewImage":"https://i.ytimg.com/vi/ryg077wBvsM/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"19"}
+  {"_id":{"$oid":"60331f421f1d093ab5424489"},"videoLink":"youtube.com/embed/nx2-4l4s4Nw","title":"Consumed by the Apocalypse","genre":"Movies","contentRating":"12+","releaseDate":"18 Jan 2021","previewImage":"https://i.ytimg.com/vi/nx2-4l4s4Nw/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"83"}
+  {"_id":{"$oid":"60331f421f1d093ab542448a"},"videoLink":"youtube.com/embed/oQiZDjG1SLs","title":"Top 10 Facts - The Elder Scrolls","genre":"Sports","contentRating":"18+","releaseDate":"20 Jul 2015","previewImage":"https://i.ytimg.com/vi/oQiZDjG1SLs/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"10"}
+  {"_id":{"$oid":"60331f421f1d093ab542448b"},"videoLink":"youtube.com/embed/KhwHR9pkoao","title":"Top 10 Facts - Death","genre":"Movies","contentRating":"18+","releaseDate":"14 Sep 2017","previewImage":"https://i.ytimg.com/vi/KhwHR9pkoao/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"10"}
+  {"_id":{"$oid":"60331f421f1d093ab542448c"},"videoLink":"youtube.com/embed/W62aVty77Lw","title":"Top 10 Facts - Space [Part 1]","genre":"Comedy","contentRating":"18+","releaseDate":"11 Jan 2014","previewImage":"https://i.ytimg.com/vi/W62aVty77Lw/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"91"}
+  {"_id":{"$oid":"60331f421f1d093ab542448d"},"videoLink":"youtube.com/embed/vDq3DwxCdKo","title":"Top 10 Facts - Space [Part 6]","genre":"Movies","contentRating":"16+","releaseDate":"17 Mar 2016","previewImage":"https://i.ytimg.com/vi/vDq3DwxCdKo/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"82"}
+  {"_id":{"$oid":"60331f421f1d093ab542448e"},"videoLink":"youtube.com/embed/Z1iOusznthU","title":"Top 10 Facts - 2016","genre":"Education","contentRating":"16+","releaseDate":"31 Dec 2016","previewImage":"https://i.ytimg.com/vi/Z1iOusznthU/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"10"}
+  {"_id":{"$oid":"60331f421f1d093ab542448f"},"videoLink":"youtube.com/embed/I5CBrjpnSNo","title":"Top 10 Facts - Space [Part 3]","genre":"Movies","contentRating":"16+","releaseDate":"22 Jun 2014","previewImage":"https://i.ytimg.com/vi/I5CBrjpnSNo/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"72"}
+  {"_id":{"$oid":"60331f421f1d093ab5424490"},"videoLink":"youtube.com/embed/CbUjuwhQPKs","title":"The Search For D. B. Cooper","genre":"Movies","contentRating":"18+","releaseDate":"27 Apr 2020","previewImage":"https://i.ytimg.com/vi/CbUjuwhQPKs/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"81"}
+  {"_id":{"$oid":"60331f421f1d093ab5424491"},"videoLink":"youtube.com/embed/gPgO6vx1UiU","title":"Top 10 Facts - Dark Souls","genre":"Sports","contentRating":"Anyone","releaseDate":"07 May 2016","previewImage":"https://i.ytimg.com/vi/gPgO6vx1UiU/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"71"}
+  {"_id":{"$oid":"60331f421f1d093ab5424492"},"videoLink":"youtube.com/embed/jia9UAUsLug","title":"Top 10 Facts - The Witcher","genre":"Education","contentRating":"7+","releaseDate":"22 Nov 2015","previewImage":"https://i.ytimg.com/vi/jia9UAUsLug/mqdefault.jpg","votes":{"upVotes":"0","downVotes":"0"},"viewCount":"99"}
+
+One more file  
+in the project root setUpRemoteMongo.sh : 
+  mongoimport --uri "mongodb://ac-5pcitzw-shard-00-00.zowfyju.mongodb.net:27017,ac-5pcitzw-shard-00-01.zowfyju.mongodb.net:27017,ac-5pcitzw-shard-00-02.zowfyju.mongodb.net:27017/?replicaSet=atlas-g6q8ig-shard-0" --ssl --authenticationDatabase admin --username yogeshdharya --password zLFR4gy658R2y5R1 --drop --collection videos --file data/export_xflix_videos.json
+
+o Apicontract available on books folder of drive   
+
+LEARNT -  
+o .env and package.json files are outside the backend or src folder 
+o index.js uses the app exproted by the app.js file and points it to the port exposed by the config/config variable  
+o roues>v1>index.js makes sure that route for which the concerned router is being called from here is not being repeated within the concerned router itself  
+index.js router.use("/videos",videoRouter) -> video.routes.js router.post("/",videoController) // Don't keep it as /video again inside router file again  
+ o app.use("*",routes) app.use("/v1",routes) is used inside app.js and router.GET/POST/PUT/  
+o router>index.js file requires express too so that const router  = express.Router(); could be used and exported  
+o Also index.js shall redirect requests to the routers present in the same folder  
+o which means router.use("/route",exportedRouter) will be used not router.get/post   
+o from controllers to services,routes and validations all will have an index.js file , 4 testing purposes and others 2 look for them   
+o controllers have req,res whreas services have ApiError ? besides controllers cannot have catchAsync ?   
+  
+o information given to us in the ApiContract is what we use in the validations folder video.validator.js in order to create joi schemas   
+videoUpload = joi.keys.object({   
+  ratings : string , 
+    genre : string, 
+})    
+BUT all the allowed values for these joi fields present in the Api Contract should be present in the config.js file in an abstracted manner   
+const path = require("path");  
+const dotenv = require("dotenv");  
+dotenv.config({path: path.join(__dirname, "../../.env")});  
+const GENRE_ACTION = "Action" ;  
+const RATING_ANYONE = "Anyone";   
+const RATING_7_PLUS = "7+";  
+const RATING_ALL = "All";  
+module.exports =  {  
+  port : process.env.XFLIX_PORT,  
+  genre_action : GENRE_ACTION,  
+  mongoose:{  
+    url:process.env.MONGODB_URL   
+  }  
+}  
+o pay attention that when u are designing the schema for the response possibly the res.body then u need to include body in the defin :   
+//goofedUp its not directly joi.keys.objects({}) instead its { body : joi.object().keys()} //forgot () of object  
+//also its joi.string() not string alone without () we everything is a method/function since every nameis followed by ()   
+const uploadVideo = {   
+  body : joi.object().keys({   
+    videoLink : joi.string().required(),   
+    title : joi.string().required(),   
+    genre : joi.string().required(),custom(genres),    
+    contentRatings : joi.string().valid(...config,ratings),    
+    releaseDate : joi.string(),required(),    
+    previewImage : joi.string().required(),    
+  })    
+}    
+  
+o considering config.ratings -> in the config.js there's an ojbect exported as ratings : [RATINGS_ANYONE,RATINGS_7_PLUS,...,RATING_ALL]    
+o httpStatus being used is not as customly crated file instead its the ALIAS for the imported/required  package ("htp-status")  
+o utils >ApiError.js -> ApiError is indedd a class with Pascal casing extendign another class Error  
+class ApiError extends Error{  
+  constructor(statusCode,messge,isOperational= true , stack = ""){  
+    super(message);  
+    this.statusCode = statusCode;  
+    this.isOperational = isOperational ;  
+    if (stack){  
+      this.stack = stack;  
+    }else{  
+      Error.captureStackTrace(this,this.constructor);  
+    }  
+  }  
+}  
+o utils>catchAsync.js has a function which takes a funcn (mind the name) as a parameter and returns it as a promise   
+function catchAsync(funcn){  
+    return function(req,res,next){  
+     Promise.resolve(funcn(req,res,next)).catch((err) => next(err));  
+    }  
+}//export it now   
+o What's the path the control logic follows with respect to Express applications ? controller then the routes ?? 
+o utils/pick.js entire file itself Creating an object with picked object properties why {} at the second last line ? 
+https://amnsingh.medium.com/whats-the-deal-with-object-prototype-hasownproperty-call-45bf8f8e1e83   
+o validations>custom.validator.js trim() function ALSO if string.contains() then array.includes()   
+o Also validate() being used in the concerned router(not index.js) is imported from middlewres not validators like this   
+explanation ? two => in a row : const validate = (schema) => (req,res,next) => {} explanation   
+o chekc the way exported elements from validators are being used in the same folder's video.validator.js 
+o Also notive that videoValidator.js we are using custom(link) 4 getting videos and for upoloading videos the usage of custom.validator.js elements is different too  
+o models folder has an index.js file too which redirectes requests to the exproted mongoose models   
+const videoSchema = new mongoose.Schema({{},  {} , {} })//goofedUp the new keyword signifying that it is a mongoose schema instance   
+o forogot the if the type of the field is string than it is presented as String     
+
+LetZStore 
+o mongoServer version is kept as 6
+
+XFLIX 
+Yogesh's ORG>XfliX 
+mongoDB cluter,Project Name - XfliX 
+ user - yogeshdharya
+ password - zLFR4gy658R2y5R1
+mongodb+srv://yogeshdharya:zLFR4gy658R2y5R1@xflix.zowfyju.mongodb.net/?retryWrites=true&w=majority
+Shell(3.4 or earlier) - mongo "mongodb://ac-5pcitzw-shard-00-00.zowfyju.mongodb.net:27017,ac-5pcitzw-shard-00-01.zowfyju.mongodb.net:27017,ac-5pcitzw-shard-00-02.zowfyju.mongodb.net:27017/?replicaSet=atlas-g6q8ig-shard-0" --ssl --authenticationDatabase admin --username yogeshdharya --password zLFR4gy658R2y5R1
+LEARNT LETZFLIX MySQL  
+
+o We should have DDL querries in a sperate file other than the ones containing DML 
+o we should have lower_case table names and column names. camelCased column names as well as table names ? 
+o ObjectId as seen in case of MongoDB entryId in mySQL ?? 
+o comments
+o Date , Well I have data as it is 
+
+const config = require("../config/config");
+const genreValidator = (value,helpers) => {
+    const genreTypes = [config.genre_education,config.genre_comedy,config.genre_lifestyle,config.genre_movies,config.genre_sports];
+    const arr = value.split(',');
+    for( let i = 0 ; i < arr.length ; i ++){
+        let currentGenre = arr[i].trim();
+        if(!(genreTypes.includes(currentGenre))){
+            return helpers.message(`The genre ${currentGenre} is NOT of the type ${genreTypes}`);
+        }
+    }
+    return value ;
+}
+o godotenv.Load() looks for a .env file at the root level of the project 
+o loadEnv() : should contain code 4 initializing both port and jwtMiddleware ? 
+BUT one should make sure that u are using ":" + port in the app.Listen() cmd 

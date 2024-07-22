@@ -66,21 +66,7 @@ async function getRSSFeedFromURL(url) {
       addArticlesToAccordion(articles, accordionArticlesBox, rank);
   
     }
-  
     
-  
-    
-  
-  
-    
-  
-    
-  
-  
-  
-    
-  
-  
   }
   
   addRSSFeedToDOM(magazines);
@@ -100,7 +86,7 @@ async function getRSSFeedFromURL(url) {
       <div class="carousel-inner" id="inner-carousel${rank}">
       
       </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel${rank}" data-bs-slide="prev">
+    <button class="carousel-control-pr" type="button" data-bs-target="#carousel${rank}" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
@@ -147,3 +133,4 @@ async function getRSSFeedFromURL(url) {
       innerCarouselBox.append(articleBox);
     }
   }
+//
