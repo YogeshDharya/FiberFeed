@@ -1,0 +1,2 @@
+Docker Compose commands 
+gets us inside the container.Acc 2 documentation no idea --->                                                                                                                                                            docker compose run --service-ports serviceName bash // 
