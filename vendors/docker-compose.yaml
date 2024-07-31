@@ -1,7 +1,7 @@
 services:
     web: 
-      build: .
+      build: 
       ports: 
-          -   3000:3000 
-      volumes:
+          - 3000:3000 
+      volumes: 
           - .:/usr/src/app 
