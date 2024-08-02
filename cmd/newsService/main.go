@@ -23,9 +23,9 @@ type ApiResponse struct{
     } `json:"news"`
 } 
 func main(){
-	err := godotenv.Load()//Load Environment Variable 
+	err := godotenv.Load("../../.env")//Load Environment Variable 
 	if err != nil {
-		log.Fatal("Error Loading .env File !")
+		log.Fatal("Changed Loading .env File !")
 	}
 	app := fiber.New()
 	apiKey := os.Getenv("API_TOKEN")
@@ -33,6 +33,7 @@ func main(){
 	if apiKey == "" {
 		log.Fatal("API key not Set !")
 	}
+	log.Print(apiKey)
 	app.Get("/news",func(c *fiber.Ctx) error {
 		news, err := fetchNews(apiKey)
         if err != nil {
