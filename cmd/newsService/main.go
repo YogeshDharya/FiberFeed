@@ -3,6 +3,7 @@ import(
 	"encoding/json"
 	"log"
 	"net/http"
+	"html/template"
 	"os"
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
@@ -23,26 +24,33 @@ type ApiResponse struct{
     } `json:"news"`
 } 
 func main(){
-	err := godotenv.Load("../../.env")//Load Environment Variable 
-	if err != nil {
+	//Load Environment Variable 
+	if err := godotenv.Load(); err != nil {
 		log.Fatal("Changed Loading .env File !")
 	}
 	app := fiber.New()
+	htmlTemplate,err := template.ParseFiles("public/index.html")
+	if err != nil {
+		log.Fatal("Error in Parsing html file")
+	}
 	apiKey := os.Getenv("API_TOKEN")
-//	port := os.Getenv("FIBER_PORT")
+	port := os.Getenv("FIBER_PORT")
 	if apiKey == "" {
 		log.Fatal("API key not Set !")
 	}
-	log.Print(apiKey)
+	log.Print("News Blog Works Fine Now !")
 	app.Get("/news",func(c *fiber.Ctx) error {
 		news, err := fetchNews(apiKey)
         if err != nil {
             return c.Status(fiber.StatusInternalServerError).SendString(err.Error())
         }
+		if err := htmlTemplate.Execute(c,news) ; err != nil{
+				return err
+		}
         return c.JSON(news)
 	})
 	app.Static("/","./public")
-	log.Fatal(app.Listen(":3000"))
+	log.Fatal(app.Listen(port))
 }
 func fetchNews(APIkey string) (*ApiResponse, error){
 	url := "https://api.currentsapi.services/v1/latest-news?apiKey=" + APIkey 
