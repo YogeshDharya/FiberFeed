@@ -29,7 +29,7 @@ func main(){
 	if err := godotenv.Load(); err != nil {
 		log.Fatal("Changed Loading .env File !")
 	}
-	engine := html.New("./public", ".html")
+	engine := html.New(public, ".html")
 	app := fiber.New(fiber.Config{
 		Views: engine,
 	})
