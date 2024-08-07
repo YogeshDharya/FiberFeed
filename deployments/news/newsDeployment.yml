@@ -1,0 +1,47 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: news-service
+  labels:
+    app: news-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: news-service
+  template:
+    metadata:
+      labels:
+        app: news-service
+    spec:
+      containers:
+      - name: news-service
+        image: your-dockerhub-username/news-service:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: FIBER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: NEWS_SERVICE_PORT
+        - name: DATABASE_USER
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: DATABASE_USER
+        - name: DATABASE_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: DATABASE_PASSWORD
+        - name: DATABASE_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: DATABASE_NAME
+        - name: API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: API_TOKEN

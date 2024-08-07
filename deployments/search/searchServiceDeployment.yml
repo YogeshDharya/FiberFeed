@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: search-service
+  labels:
+    app: search-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: search-service
+  template:
+    metadata:
+      labels:
+        app: search-service
+    spec:
+      containers:
+      - name: search-service
+        image: your-dockerhub-username/search-service:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: FIBER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: FIBER_PORT
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: DATABASE_URL
+        - name: API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: API_TOKEN

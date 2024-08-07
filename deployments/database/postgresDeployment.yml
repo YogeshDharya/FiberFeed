@@ -19,9 +19,16 @@ spec:
         image: postgres:latest
         env:
         - name: DB_USER
+          valueFrom: 
+            configMapKeyRef:
+              name: postgresConfig
+              key: DB_USER
           value: "user"
         - name: DB_PASSWORD
-          value: "password"
+          valueFrom: 
+            secretKeyRef: 
+              name: posg
+          key : "DB_PASSWORD"
         - name: DB_NAME
           value: "newsdb"
         ports:

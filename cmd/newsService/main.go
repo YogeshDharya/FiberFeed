@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	"os"
+	"path/filepath"
+	"github.com/spf13/viper"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html/v2"
-	"github.com/joho/godotenv"
 )
 type ApiResponse struct{
 	Status string `json:"status"`
@@ -24,21 +24,37 @@ type ApiResponse struct{
         Published   string `json:"published"`
     } `json:"news"`
 } 
+func initConfig(){
+	viper.SetConfigType(".env")
+	viper.AddConfigPath("../.env")
+//	viper.AutomaticEnv()
+//	viper.SetEnvPrefix("app");
+	viper.BindEnv("NEWS_SERVICE_PORT")
+	viper.BindEnv("API_TOKEN")
+	err := viper.ReadInConfig()
+	if err != nil{
+		panic("Error Reading Config env file : " + err.Error())
+	}
+}
 func main(){
 	//Load Environment Variable 
-	if err := godotenv.Load(); err != nil {
-		log.Fatal("Changed Loading .env File !")
+  //no need to have absolute file path anymore ?? 
+	initConfig()
+	
+	publicDir, err := filepath.Abs("./public")
+	if err != nil {
+		log.Fatal("Can't resolve html template directory !")
 	}
-	engine := html.New(public, ".html")
+	engine := html.New(publicDir, ".html")
 	app := fiber.New(fiber.Config{
 		Views: engine,
 	})
-	apiKey := os.Getenv("API_TOKEN")
-	//port := os.Getenv("FIBER_PORT")
+	apiKey := viper.GetString("API_TOKEN")
+	port := viper.GetString("FIBER_PORT")
 	if apiKey == "" {
 		log.Fatal("API key not Set !")
 	}
-	log.Print("News Blog Works Fine Now !")
+	log.Println("News Blog Works Fine Now !")
 	app.Get("/news",func(c *fiber.Ctx) error {
 		news, err := fetchNews(apiKey)
         if err != nil {
@@ -47,7 +63,7 @@ func main(){
 	return c.Render("index",news)
 	})
 	app.Static("/","./public")
-	log.Fatal(app.Listen(":3000"))
+	log.Fatal(app.Listen(port))
 }
 func fetchNews(APIkey string) (*ApiResponse, error){
 	url := "https://api.currentsapi.services/v1/latest-news?apiKey=" + APIkey 

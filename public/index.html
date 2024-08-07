@@ -40,14 +40,19 @@
         <p class="text-muted">The Insights you need to keep ahead</p>
         <div id="news">
           Hey there !News Here : 
+          <form action="/search" method="get">
+            <input type="text" name="q" placeholder="Search news. . ." >
+            <button type="submit">Search </button>
+          </form>
           <ul>
             {{range .News}}
             <li>
               <h2>{{.Title}}</h2>
               <p>{{.Description}}</p>
               <!-- TODO Author -->
-               <p><a href="{{.URL}}">Read More</p>
+               <p><a href="{{.URL}}">Read More</a></p>
             </li>
+            {{end}}
           </ul>
         </div>
   </div>

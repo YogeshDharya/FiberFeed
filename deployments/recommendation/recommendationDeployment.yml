@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: recommendation-service
+  labels:
+    app: recommendation-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: recommendation-service
+  template:
+    metadata:
+      labels:
+        app: recommendation-service
+    spec:
+      containers:
+      - name: recommendation-service
+        image: your-dockerhub-username/recommendation-service:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: FIBER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: app-config
+              key: FIBER_PORT
+        - name: DB_URL
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: DB_URL
+        - name: API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: API_TOKEN
