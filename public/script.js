@@ -16,20 +16,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 description.textContent = article.description;
                 newsItem.appendChild(description);
 
-                const image = document.createElement('img');
-                image.className = 'news-image';
-                image.src = article.image; // Correct attribute is src
-                image.alt = article.title;
-                newsItem.appendChild(image);
-
-                // Author and Category TODOs can be implemented here
-
                 const link = document.createElement('a');
                 link.className = 'news-link';
                 link.textContent = 'Read More';
                 link.href = article.url;
                 link.target = '_blank';
                 newsItem.appendChild(link);
+
+                const author = document.createElement('p');
+                author.className = 'news-author';
+                author.textContent = article.author;
+                newsItem.appendChild(author);
+
+                const image = document.createElement('img');
+                image.className = 'news-image';
+                image.src = article.image; 
+                image.alt = article.title;
+                newsItem.appendChild(image);
 
                 const newsId = document.createElement('span');
                 newsId.className = 'news-id';

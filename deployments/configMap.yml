@@ -7,5 +7,5 @@ data:
   SEARCH_SERVICE_PORT: "3001"
   DB_PORT: "5432"
   DB_NAME: "newsDB"
-  DB_URL:
+  DB_HOST: "localhost"
   

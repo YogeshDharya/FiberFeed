@@ -49,8 +49,10 @@
             <li>
               <h2>{{.Title}}</h2>
               <p>{{.Description}}</p>
+              <p><a href="{{.URL}}">Read More</a></p>
+              <p>Author: {{.Author}}</p>
+              <img src="{{ .Image }}" alt="{{ .Title }}">
               <!-- TODO Author -->
-               <p><a href="{{.URL}}">Read More</a></p>
             </li>
             {{end}}
           </ul>
