@@ -3,57 +3,28 @@ import(
 	"encoding/json"
 	"log"
 	"net/http"
-	"os"
+	"github.com/spf13/viper"
 	"github.com/gofiber/fiber/v2"
-	"github.com/joho/godotenv"
+	"github.com/gofiber/fiber/v2/middleware/proxy"
 )
-type ApiResponse struct{
-	Status string `json:"status"`
-	TotalResults int `json:"totalResults"`
-	News    []struct {
-        ID          string `json:"id"`
-        Title       string `json:"title"`
-        Description string `json:"description"`
-        URL         string `json:"url"`
-        Author      string `json:"author"`
-        Image       string `json:"image"`
-        Language    string `json:"language"`
-        Category    []string `json:"category"`
-        Published   string `json:"published"`
-    } `json:"news"`
+func initConfig(){
+	viper.SetConfigName(".env")
+	viper.SetConfigType("env")
+	viper.AddConfigPath(".")
+	viper.AutomaticEnv()
+	viper.BindEnv("NEWS_SERVICE_PORT")
+	viper.BindEnv("USER_SERVICE_PORT")
 } 
 func main(){
-	err := godotenv.Load("../../.env")//Load Environment Variable 
-	if err != nil {
-		log.Fatal("Changed Loading .env File !")
-	}
 	app := fiber.New()
-	apiKey := os.Getenv("API_TOKEN")
-//	port := os.Getenv("FIBER_PORT")
-	if apiKey == "" {
-		log.Fatal("API key not Set !")
-	}
-	log.Print(apiKey)
-	app.Get("/news",func(c *fiber.Ctx) error {
-		news, err := fetchNews(apiKey)
-        if err != nil {
-            return c.Status(fiber.StatusInternalServerError).SendString(err.Error())
-        }
-        return c.JSON(news)
+	newsPort := viper.GetString("NEWS_SERVICE_PORT")
+	userPort := viper.GetString("USER_SERVICE_PORT")
+	app.Use("/",func(c *fiber.Ctx) error {
+		if c.Path() == "/news" {
+				return proxy.Do(c,"http://localhost"+newsPort)
+		}
+        return proxy.Do(c,"http://localhost:"+ userPort)
 	})
 	app.Static("/","./public")
-	log.Fatal(app.Listen(":3000"))
-}
-func fetchNews(APIkey string) (*ApiResponse, error){
-	url := "https://api.currentsapi.services/v1/latest-news?apiKey=" + APIkey 
-	res, err := http.Get(url);
-	if err != nil {
-		return nil , err 
-	} 
-	defer res.Body.Close() 
-	var newsResponse ApiResponse
-	if err := json.NewDecoder(res.Body).Decode(&newsResponse); err != nil {
-		return nil , err
-	}
-	return &newsResponse,nil 
+	log.Fatal(app.Listen(":3003"))
 }
