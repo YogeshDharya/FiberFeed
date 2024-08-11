@@ -2,13 +2,16 @@ package main
 
 import (
 	"encoding/json"
-	"log"
 	"fmt"
+	"log"
 	"net/http"
 	"path/filepath"
-	"github.com/spf13/viper"
+	"strings"
+
+	"github.com/YogeshDharya/UDocK8s/internal/auth"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html/v2"
+	"github.com/spf13/viper"
 )
 type ApiResponse struct{
      Pagination struct{
@@ -47,7 +50,7 @@ func main(){
 	//Load Environment Variable 
   //no need to have absolute file path anymore ?? 
 	initConfig()
-	
+
 	publicDir, err := filepath.Abs("../../public")
 	if err != nil {
 		log.Fatal("Can't resolve html template directory !")
@@ -66,6 +69,20 @@ func main(){
 	}
 	log.Println("News Blog Works Fine Now !")
 	app.Get("/news",func(c *fiber.Ctx) error {
+		authHeader := c.Get("Authorization")
+		if authHeader == "" {
+			c.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
+				"error":"Your Not Approved To Serve This !",
+			})
+		}
+		//TODO : ensure token is of the type bearer 
+		token := strings.Split(authHeader,"Bearer")[1]
+		_, err := auth.ValidateJWT(token)
+		if err != nil {
+			return c.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
+				"error": "Invalid Token !",
+			})
+		}
 		news, err := fetchNews(apiKey)
         if err != nil {
             return c.Status(fiber.StatusInternalServerError).SendString(err.Error())

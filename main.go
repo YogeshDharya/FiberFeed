@@ -1,8 +1,7 @@
 package main
 import(
-	"encoding/json"
 	"log"
-	"net/http"
+	"fmt"
 	"github.com/spf13/viper"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/proxy"
@@ -19,12 +18,12 @@ func main(){
 	app := fiber.New()
 	newsPort := viper.GetString("NEWS_SERVICE_PORT")
 	userPort := viper.GetString("USER_SERVICE_PORT")
+	proxyPort := viper.GetString("PROX_SERVICE_PORT")
 	app.Use("/",func(c *fiber.Ctx) error {
 		if c.Path() == "/news" {
 				return proxy.Do(c,"http://localhost"+newsPort)
 		}
         return proxy.Do(c,"http://localhost:"+ userPort)
 	})
-	app.Static("/","./public")
-	log.Fatal(app.Listen(":3003"))
+	log.Fatal(app.Listen(fmt.Sprintf(":%s",proxyPort)))
 }
