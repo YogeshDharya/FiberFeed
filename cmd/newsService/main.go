@@ -6,34 +6,34 @@ import (
 	"log"
 	"net/http"
 	"path/filepath"
-	"strings"
-
-	"github.com/YogeshDharya/UDocK8s/internal/auth"
+	_	"strings"
+	//"github.com/YogeshDharya/UDocK8s/internal/auth"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html/v2"
 	"github.com/spf13/viper"
 )
+
 type ApiResponse struct{
-     Pagination struct{
-		Limit int `json:"limit"`
-		Offset int `json:"offset"`
-		Count int `json:"count"`
-		Total int `json:"total"`
-	 }`json: "pagination"`
-	 Data []Article `json:"data"`
+	Pagination struct{
+	   Limit int `json:"limit"`
+	   Offset int `json:"offset"`
+	   Count int `json:"count"`
+	   Total int `json:"total"`
+   }  `json: "pagination"`
+	Data [] struct {
+	   Author        string `json:"author"`
+	   Title           string `json:"title"`
+	   Description string `json:"description"`
+	   URL             string `json:"url"`
+	   Source  string `json:"source"` 
+	   Image       string `json:"image"`
+	   Category    string `json:"category"`
+	   Language    string `json:"language"`
+	   Country  string  `json:"country"`
+	   PublishedAt   string `json:"published_at"`
+	}`json:"data"`
 }
-type Article struct {
-        Author        string `json:"author"`
-        Title           string `json:"title"`
-        Description string `json:"description"`
-        URL             string `json:"url"`
-		Source  string `json:"source"` 
-        Image       string `json:"image"`
-        Category    string `json:"category"`
-        Language    string `json:"language"`
-		Country  string  `json:"country"`
-        PublishedAt   string `json:"published_at"`
-}
+
 func initConfig(){
 	viper.SetConfigName(".env")
 	viper.SetConfigType("env")
@@ -69,20 +69,7 @@ func main(){
 	}
 	log.Println("News Blog Works Fine Now !")
 	app.Get("/news",func(c *fiber.Ctx) error {
-		authHeader := c.Get("Authorization")
-		if authHeader == "" {
-			c.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
-				"error":"Your Not Approved To Serve This !",
-			})
-		}
-		//TODO : ensure token is of the type bearer 
-		token := strings.Split(authHeader,"Bearer")[1]
-		_, err := auth.ValidateJWT(token)
-		if err != nil {
-			return c.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
-				"error": "Invalid Token !",
-			})
-		}
+		//auth.ValidateJWT(c)
 		news, err := fetchNews(apiKey)
         if err != nil {
             return c.Status(fiber.StatusInternalServerError).SendString(err.Error())
@@ -93,7 +80,7 @@ func main(){
 	log.Fatal(app.Listen(fmt.Sprintf(":%s",port)))
 }
 func fetchNews(APIkey string) (*ApiResponse, error){
-	url := "https://api.currentsapi.services/v1/latest-news?apiKey=" + APIkey 
+	url := "http://api.mediastack.com/v1/news?access_key=" + APIkey + "&countries=us&languages=en&limit=10"
 	res, err := http.Get(url);
 	if err != nil {
 		return nil , err 
