@@ -1,0 +1,9 @@
+terraform project ideas : 
+    o service discovery n circuit breaking  
+    TODO DOUBT  
+    o service ingress dns kube-proxy load balancing ??  
+    o we have moved from jenkins provder to ansible playbook <- cloud architecture n devOps 
+    o labels: "hacktoberfest" issues: open Language: "Go"
+    o GOAT's springboot video 
+    o spring boot + microservices + Docker+ k8s   
+    o DevOps remaining videos 
