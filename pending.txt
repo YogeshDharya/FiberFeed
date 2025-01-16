@@ -1,0 +1,127 @@
+PostGres db organization on supabase(doubtful about blank space b/t Dharya's n Org) - YogeshDharya's Org
+db_Password = HwZwTxgy$wGFb9c
+Region = South Asia(Mumbai)
+Project_Name = FiberPostGres
+
+Project_URL = https://pqckxclhsnejqeypudvs.supabase.co
+Service_role = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxY2t4Y2xoc25lanFleXB1ZHZzIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMjk2NzAzMywiZXhwIjoyMDQ4NTQzMDMzfQ.pBJA6pNO_zH6KvCflE1O3xD8nv6QpuukG_8n6FYlGEw
+JWT_Secret = KLeDnyhUuTCGPgF9eygWE0PoEqiRhEUGkg0aPU+k81WBQfzoqg2FcWb2nEQiiBqUXevloYreDbya9feHZxi3pQ==
+
+TODO 
+
+
+o would we at least need some reverse proxy or like some internal  load balancer for routing traffic to the respective microservice container or is it that docker compose alone can handle this ? 
+o lambda() in go should be an independent new go project ? Meaning weill have to work with a new route for the LOCAL reverse proxy ?   
+o whereas others should possess a medium to interact with this particular project ?   REST/grpc?  
+o Scope for prometheus 
+
+TODO CODE - career account gpt resume statement enhancement 
+o Some go.mod package names might still have GoDocks 
+o env left as of now service_role, region, db_organization 
+o remember that the go-kit package has not been implemented yet 
+When a user places an order, a goroutine can handle payment processing in the background, freeing up the main thread to respond with a confirmation.
+o external payment gateway services(if not razorpay then someone else may be), shipping 
+Use goroutines to periodically synchronize inventory data between the MongoDB database and in-memory cache or external warehouse systems
+
+MUST if after successful purchase  sending notifications(go code) vs sqs( 4 emails) in hld   diagram 
+PLUS you need to copy paste all the resume related n challenge,updates related info here 
+
+TODO CHALLENGE 
+For large e-commerce platforms, you can use goroutines to orchestrate workflows like packaging, shipping, and notifications, where each stage runs independently.
+o decouple order validation, payment n inventory update into separate concurrent tasks FOR BELOW 
+o multiple users attempting to order the same product simultaneously(@ same time) leading 2 conflicts in inventory updates use mutexes for this BUT first 
+
+Challenges with Goroutines
+Leaking Goroutines: Ensure goroutines are properly terminated when no longer needed.
+Deadlocks: Overusing mutexes or poor design can lead to goroutines waiting indefinitely.
+Debugging: Identifying race conditions can be challenging; use go run -race to detect them during developmen
+Best Practices
+Use channels for communication between goroutines to reduce the need for shared state.
+Favor functional decomposition to isolate logic within goroutines.
+Use context.Context to manage goroutine lifecycles, ensuring they don’t run indefinitely:
+
+ctx, cancel := context.WithTimeout(context.Background(), time.Second*10)
+defer cancel()
+
+go func(ctx context.Context) {
+    select {
+    case <-ctx.Done():
+        fmt.Println("Goroutine terminated")
+    }
+}(ctx)
+Mutex which could prove to be helpful 
+var mu sync.Mutex
+func decrementInventory(productID string) {
+    mu.Lock()
+    defer mu.Unlock()
+    // Decrement inventory logic
+}
+
+
+User Session Management:
+Ensuring no race conditions occur during simultaneous session updates for the same user.
+
+Order ID Generation:
+
+TODO Fiber Mart resume statement enhancement 
+o we can make use of go routines to optimize error handling ensure that it can handle multiple requests at the same time NOT JUST BECAUSE db transactions are by default non-blocking BUT also by incorporating go routines 
+o We can run go routines as background processes for tasks like sending payment confirmation to the user 
+o mutexes can be used for 
+
+TODO fiberMart Updates 
+o RealTime updates for in-stock product information in case of product specific(or even in general) 
+ may be we can see cache validation as a solution to this 
+using atomic operations(sync/atomic package) instead of mutexes in order to avoid race conditions 
+MlOps - Recommendation System by using mongoDB aggregation pipelines to collect data from user activity on UI such as search bar typing, clicks hovers etc  
+Generate personalized product recommendations by concurrently processing user activity logs or querying external recommendation engines. 
+
+TODO FiberFeed left 
+o MySQL -> PostGres All SQL Queries present in some gpt cannot recall 
+o implement Effective Indexing for optimizing product catalogue 
+o You can also consider mongoDB aggregation pipelines for collecting user data 2 enhance product catalogue even more 
+
+RESUME 
+
+1. Developed a high-performance e-commerce backend application using Go Fiber and MongoDB, leveraging efficient data modeling and lightweight routing to ensure scalability and responsiveness
+Self explanatory BUT when it shall come to scalability n responsiveness we can think of below reasons  
+The 30% reduction was calculated by comparing response times of the same endpoints implemented in an older Node.js-based framework to the new backend built with Go Fiber. We used wrk to simulate 100 concurrent users and measured the average response times over 1,000 requests. The Go Fiber implementation reduced the average response time from 200 ms to 140 ms, mainly due to its lightweight routing and optimized MongoDB queries leveraging indexes
+Percentage Reduction
+=Old Response Time−New Response Time
+Old Response Time
+×
+100
+Percentage Reduction= Old Response Time−New Response Time
+                                    _____________________________   X  100 
+                                                        Old Response Time
+Example:
+Old response time: 200 ms.
+New response time: 140 ms.
+Reduction: 200−140
+                --------------×100
+                    200
+30
+%
+200
+200−140
+​
+ ×100=30%.
+
+Fiber's minimalistic and efficient design is built on top of Fasthttp, which is faster than the standard net/http package.
+Its lightweight router reduces overhead for API requests.
+
+2. Go routines ? 
+    Implemented concurrent processing using Go’s goroutines to handle background tasks such as order validation and payment processing, increasing system throughput by 40% and reducing task execution times by 30% under simulated high-concurrency scenarios
+
+3. Mutexes 
+4. MongoDB ? 
+    Designed and implemented a scalable database architecture using MongoDB, optimizing query performance by 25% through effective indexing and aggregation pipelines to support seamless product catalog managemen
+5. Jenkins 
+    Streamlined the CI/CD pipeline by using Jenkins to automate to automate build, test, and deployment workflows for the backend application, enabling faster and more reliable releases, which reduced deployment time by 50% .
+    reducing deployment time by 40 % by using jenkins as well as docker both ? Just be replacing manual E with Automation ? May be we can reduce it to 30% to sound more real in that case besides we are using it in docker bullet point 2 
+
+4. Improved deployment efficiency by containerizing application components with Docker on AWS EC2 instances for efficient resource management reducing deployment time by 40% & decreasing configuration errors by 80%. 
+    have kept reducing configuration related errors by 80% BUT (below) 
+    reducing deployment time by 40 % just by using Docker Or Jenkins respectively ? How though ? 
+
+TODO Pending Resume Bullet points n more  DOUBTS 
+    

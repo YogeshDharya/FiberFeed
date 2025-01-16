@@ -1,4 +1,4 @@
-module github.com/YogeshDharya/UDocK8s/tree/master/cmd/newsService
+module github.com/YogeshDharya/FiberFeed/tree/master/cmd/newsService
 
 go 1.22.5
 
@@ -10,6 +10,7 @@ require (
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
+	github.com/go-kit/kit v0.13.0 // indirect
 	github.com/gofiber/template v1.8.3 // indirect
 	github.com/gofiber/template/html/v2 v2.1.2 // indirect
 	github.com/gofiber/utils v1.1.0 // indirect

@@ -1,6 +1,7 @@
 module github.com/YogeshDharya/UDocK8s/cmd/searchService
 
-go 1.22.5
+go 1.22.5go get github.com/go-kit/kit
+
 
 require (
 	dario.cat/mergo v1.0.0 // indirect

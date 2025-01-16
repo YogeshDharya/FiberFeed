@@ -9,6 +9,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html/v2"
+	"github.com/go-kit/kit/endpoint"
+	"github.com/go-kit/kit/log"
 	"github.com/joho/godotenv"
 )
 
@@ -28,6 +30,10 @@ type ApiResponse struct {
 	} `json:"news"`
 }
 
+type SearchServiceI interface{
+	Search(query String) ([]string,error)
+}
+type searchService struct{}
 func main() {
 	// Load Environment Variables
 	if err := godotenv.Load(); err != nil {
@@ -51,7 +57,9 @@ func main() {
 		log.Fatal("API key not set!")
 	}
 	log.Print("News Blog works fine now!")
-
+	loggger := log.NewLogfmtLogger(log.NewsSyncWriter(os.Stdout))
+	svc := searchService{} 
+ 
 	app.Get("/news", func(c *fiber.Ctx) error {
 		news, err := fetchNews(apiKey)
 		if err != nil {
@@ -76,7 +84,24 @@ func main() {
 
 	log.Fatal(app.Listen(":" + port))
 }
-
+type searchRequest struct{
+	Query string `json:"query"`
+}
+func createSearchEndpoint(svc searchService) endpoint.Endpoint {
+	return func(ctx context.Context, request interface{}) (interface{}, error){
+		req := request.(searchRequest)
+		results, err := svc.Search(req.Query)
+		return ApiResponse{Results: results, Err: err}, nil
+	}
+}
+func decodeSearchRequest(_ context.Context, r *http.Request) (interface{} , error){
+	//TODO 
+	//we don't have an interface in the return statement 
+	var req searchRequest
+	err := json.NewDecoder(r.body).Decode(&req)
+	return req
+}
+func encodeSearchRequest(_ context.Context, r *http.Request)
 func fetchNews(APIkey string) (*ApiResponse, error) {
 	url := "https://api.currentsapi.services/v1/latest-news?apiKey=" + APIkey
 	res, err := http.Get(url)
@@ -91,7 +116,7 @@ func fetchNews(APIkey string) (*ApiResponse, error) {
 	return &newsResponse, nil
 }
 
-func searchNews(APIkey, query string) (*ApiResponse, error) {
+func (service searchService) searchNews(APIkey, query string) (*ApiResponse, error) {
 	url := "https://api.currentsapi.services/v1/search?apiKey=" + APIkey + "&keywords=" + query
 	res, err := http.Get(url)
 	if err != nil {
@@ -102,5 +127,8 @@ func searchNews(APIkey, query string) (*ApiResponse, error) {
 	if err := json.NewDecoder(res.Body).Decode(&searchResponse); err != nil {
 		return nil, err
 	}
+	//TODO 
+	//below value should be incorporated with returning value 4 go kit 
+	//[]string{"Result1 for " + query, "Result2 for " + query}, nil
 	return &searchResponse, nil
 }
