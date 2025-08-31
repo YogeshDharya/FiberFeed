@@ -8,9 +8,11 @@ Service_role = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJl
 JWT_Secret = KLeDnyhUuTCGPgF9eygWE0PoEqiRhEUGkg0aPU+k81WBQfzoqg2FcWb2nEQiiBqUXevloYreDbya9feHZxi3pQ==
 
 TODO 
-Fiber Feed has a jenkins file or not ?
+Fiber Feed has a jenkins file or not ? 
+Redis - pub sub(at least publish) needs to be implemented 
 
-o would we at least need some reverse proxy or like some internal  load balancer for routing traffic to the respective microservice container or is it that docker compose alone can handle this ? 
+o would we at least need some reverse proxy or like some internal  load balancer for routing traffic to the respective microservice container 
+or is it that docker compose alone can handle this ? 
 o lambda() in go should be an independent new go project ? Meaning weill have to work with a new route for the LOCAL reverse proxy ?   
 o whereas others should possess a medium to interact with this particular project ?   REST/grpc?  
 o Scope for prometheus 
